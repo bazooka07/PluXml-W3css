@@ -1,0 +1,31 @@
+/* Liens */
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+/* fin Liens */
+
+/* Commentaires */
+.coments .level-0 {  
+}
+.coments .level-1 {
+  margin-left: 32px;
+}
+.coments .level-2 {
+  margin-left: 64px;
+}
+.coments .level-3 {
+  margin-left: 96px;
+}
+.coments .level-4 {
+  margin-left: 128px;
+}
+.coments .level-5 {
+  margin-left: 160px;
+}
+#id_answer .comment-link-reply {
+  display: none
+}
+/* fin Commentaires */
