@@ -26,7 +26,7 @@
 <nav  role="navigation" >
 
 	<!-- Navbar on wide screens -->
-	<ul class="w3-navbar w3-theme-dark w3-left-align w3-large">
+	<ul class="menu-large w3-navbar w3-theme-dark w3-left-align w3-large">
 		<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
 			<a class="w3-padding-large w3-hover-theme w3-large w3-theme-dark" href="javascript:void(0);" onclick="myMenu()" title="Ouvir le menu"><i class="fa fa-bars"></i></a>
 		</li>
@@ -35,13 +35,13 @@
 			<?php $plxShow->lang('HOME') ?>
 		</a>
 		</li>
-	<?php $plxShow->staticList('','<li class="w3-hide-small  #static_status w3-theme-dark" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
+	<?php $plxShow->staticList('','<li class="w3-hide-small  #static_status w3-theme-dark" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-hide-small w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
 	</ul>
 
 	<!-- Navbar on small screens -->
 	<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium "  >
 		  <ul class="w3-navbar w3-left-align w3-large w3-theme-dark w3-padding-bottom ">
-			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>'); ?>
+			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>', '<div class="w3-padding-large ">#group_name</div>  '); ?>
 		  </ul>
 	</div>
 	

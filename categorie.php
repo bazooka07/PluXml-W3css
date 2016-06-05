@@ -24,7 +24,7 @@
 						<span class="article-date w3-margin-right"><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></time></span> 
 						<span class="article-comments"><i class="fa fa-comment" aria-hidden="true"></i> <a href="#comments"><?php $plxShow->artNbCom(); ?></a></span>
 					</p>
-					</header>
+				</header>
 
 				<section>
 					<?php $plxShow->artThumbnail(); ?>				
