@@ -1,7 +1,7 @@
 <?php if(!defined('PLX_ROOT')) exit; ?>
 
 <!-- Comments -->
-<div class="coments    w3-card-4 w3-margin w3-theme-light  w3-padding" >
+<div class="coments w3-card-4 w3-margin w3-theme-light w3-padding" >
 
 	<?php if($plxShow->plxMotor->plxRecord_coms): ?>
 
@@ -11,14 +11,14 @@
 
 		<?php while($plxShow->plxMotor->plxRecord_coms->loop()): # On boucle sur les commentaires ?>
 
-		<div id="<?php $plxShow->comId(); ?>" class="comment <?php $plxShow->comLevel(); ?>  w3-leftbar w3-theme-border w3-margin-bottom w3-card-2 w3-hover-shadow " >
+		<div id="<?php $plxShow->comId(); ?>" class="comment <?php $plxShow->comLevel(); ?> w3-leftbar w3-theme-border w3-margin-bottom w3-card-2 w3-hover-shadow " >
 
 			<!-- display comment -->
 			<div id="com-<?php $plxShow->comIndex(); ?>">
 
 				<p class="w3-margin-0 w3-margin-left">			
-					<span class="coment-author w3-left w3-margin-right"><i class="fa fa-user"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
-					<span class="coment-date w3-margin-right "><i class="fa fa-calendar"></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time>  </span> 
+					<span class="coment-author w3-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
+					<span class="coment-date w3-margin-right "><i class="fa fa-calendar" aria-hidden="true" ></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time>  </span> 
 					<span class="w3-right w3-tag w3-theme comment-link-reply">
 						<span class="coment-link "><a class="nbcom" href="<?php $plxShow->ComUrl(); ?>" title=" #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?>"><i class="fa fa-link" aria-hidden="true"></i></a></span> 
 					  |	<span class="coment-reply  "><a rel="nofollow" title="<?php $plxShow->lang('REPLY'); ?>" href="<?php $plxShow->artUrl(); ?>#form" onclick="replyCom('<?php $plxShow->comIndex() ?>')"> <i class="fa fa-share" aria-hidden="true"></i><!-- <?php $plxShow->lang('REPLY'); ?> --></a></span>
@@ -45,7 +45,7 @@
 	<?php if($plxShow->plxMotor->plxRecord_arts->f('allow_com') AND $plxShow->plxMotor->aConf['allow_com']): ?>
 
 	<h2>
-		<i class=" fa fa-pencil"></i> <?php $plxShow->lang('WRITE_A_COMMENT') ?>
+		<i class="fa fa-pencil" aria-hidden="true"></i> <?php $plxShow->lang('WRITE_A_COMMENT') ?>
 	</h2>
 
 	<form id="form" action="<?php $plxShow->artUrl(); ?>#form" method="post">
@@ -107,7 +107,7 @@
 
 	<?php else: ?>
 	<p>
-		<?php $plxShow->lang('COMMENTS_CLOSED') ?>.
+		<!-- <?php $plxShow->lang('COMMENTS_CLOSED') ?>. -->
 	</p>
 
 	<?php endif; # Fin du if sur l'autorisation des commentaires ?>
