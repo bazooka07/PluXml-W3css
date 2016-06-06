@@ -35,7 +35,6 @@ text-decoration:underline;
   display: none; 
   position:absolute;
   z-index: 1;
-  margin-left: -8px;
 }
 .menu-large.w3-navbar li:hover > ul {
 	display:block;
@@ -44,8 +43,6 @@ text-decoration:underline;
 .menu-large.w3-navbar ul li   {	
   float:none; 
   display : block;  
-  padding-left: 8px; 
-  padding-right: 8px;  
 }
 .menu-large.w3-navbar ul li:last-child {
   padding-bottom: 8px;
