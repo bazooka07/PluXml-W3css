@@ -1,0 +1,696 @@
+/** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+*                                                                                 *
+*                             W3.CSS Color Themes                                 *
+*          http://www.w3schools.com/w3css/w3css_color_themes.asp                  *
+*                                                                                 *
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** **/
+
+
+/** *** 2016 Riverside  *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f4f6f9 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#d9e1ec !important}
+.w3-theme-l3 {color:#000 !important; background-color:#b4c3d8 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#8ea6c5 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#6888b1 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#456185 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#3d5676 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#354b68 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#2e4059 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#26364a !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f4f6f9 !important}
+.w3-theme-dark {color:#fff !important; background-color:#26364a !important}
+.w3-theme-action {color:#fff !important; background-color:#26364a !important}
+
+.w3-theme {color:#fff !important; background-color:#4c6a92 !important}
+.w3-text-theme {color:#4c6a92 !important}
+.w3-theme-border {border-color:#4c6a92 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#4c6a92 !important}
+
+
+/** *** 2016 Airy Blue *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f8fbfc !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e9f0f6 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d3e1ee !important}
+.w3-theme-l2 {color:#000 !important; background-color:#bdd2e5 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#a7c4dd !important}
+.w3-theme-d1 {color:#fff !important; background-color:#77a3ca !important}
+.w3-theme-d2 {color:#fff !important; background-color:#5d92c0 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#4681b4 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#3c6e9a !important}
+.w3-theme-d5 {color:#fff !important; background-color:#325c81 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f8fbfc !important}
+.w3-theme-dark {color:#fff !important; background-color:#325c81 !important}
+.w3-theme-action {color:#fff !important; background-color:#325c81 !important}
+
+.w3-theme {color:#000 !important; background-color:#92b6d5 !important}
+.w3-text-theme {color:#92b6d5 !important}
+.w3-theme-border {border-color:#92b6d5 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#92b6d5 !important}
+
+
+/** *** 2016 Sharkskin *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f8f8f8 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e6e6e7 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#cdcecf !important}
+.w3-theme-l2 {color:#000 !important; background-color:#b4b5b7 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#9b9c9f !important}
+.w3-theme-d1 {color:#fff !important; background-color:#75767a !important}
+.w3-theme-d2 {color:#fff !important; background-color:#68696c !important}
+.w3-theme-d3 {color:#fff !important; background-color:#5b5c5f !important}
+.w3-theme-d4 {color:#fff !important; background-color:#4e4f51 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#414244 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f8f8f8 !important}
+.w3-theme-dark {color:#fff !important; background-color:#414244 !important}
+.w3-theme-action {color:#fff !important; background-color:#414244 !important}
+
+.w3-theme {color:#fff !important; background-color:#838487 !important}
+.w3-text-theme {color:#838487 !important}
+.w3-theme-border {border-color:#838487 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#838487 !important}
+
+
+/** *** 2016 Aurora Red *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fbf3f2 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f3d6d4 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e7ada9 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#db847d !important}
+.w3-theme-l1 {color:#fff !important; background-color:#d05a52 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#a6352d !important}
+.w3-theme-d2 {color:#fff !important; background-color:#932f28 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#812a23 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#6e241e !important}
+.w3-theme-d5 {color:#fff !important; background-color:#5c1e19 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fbf3f2 !important}
+.w3-theme-dark {color:#fff !important; background-color:#5c1e19 !important}
+.w3-theme-action {color:#fff !important; background-color:#5c1e19 !important}
+
+.w3-theme {color:#fff !important; background-color:#b93a32 !important}
+.w3-text-theme {color:#b93a32 !important}
+.w3-theme-border {border-color:#b93a32 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#b93a32 !important}
+
+
+/** *** 2016 Warm Taupe *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#faf9f8 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#efeae6 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#dfd4cd !important}
+.w3-theme-l2 {color:#000 !important; background-color:#cfbfb4 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#bfa99b !important}
+.w3-theme-d1 {color:#fff !important; background-color:#a48470 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#95745f !important}
+.w3-theme-d3 {color:#fff !important; background-color:#836654 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#705748 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#5d493c !important}
+
+.w3-theme-light {color:#000 !important; background-color:#faf9f8 !important}
+.w3-theme-dark {color:#fff !important; background-color:#5d493c !important}
+.w3-theme-action {color:#fff !important; background-color:#5d493c !important}
+
+.w3-theme {color:#fff !important; background-color:#af9483 !important}
+.w3-text-theme {color:#af9483 !important}
+.w3-theme-border {border-color:#af9483 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#af9483 !important}
+
+
+/** *** 2016 Dusty Cedar *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#faf5f5 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#efdede !important}
+.w3-theme-l3 {color:#000 !important; background-color:#debebe !important}
+.w3-theme-l2 {color:#000 !important; background-color:#ce9d9d !important}
+.w3-theme-l1 {color:#fff !important; background-color:#bd7d7d !important}
+.w3-theme-d1 {color:#fff !important; background-color:#9f5050 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#8d4747 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#7b3e3e !important}
+.w3-theme-d4 {color:#fff !important; background-color:#6a3535 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#582c2c !important}
+
+.w3-theme-light {color:#000 !important; background-color:#faf5f5 !important}
+.w3-theme-dark {color:#fff !important; background-color:#582c2c !important}
+.w3-theme-action {color:#fff !important; background-color:#582c2c !important}
+
+.w3-theme {color:#fff !important; background-color:#ad5d5d !important}
+.w3-text-theme {color:#ad5d5d !important}
+.w3-theme-border {border-color:#ad5d5d !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#ad5d5d !important}
+
+
+/** *** 2016 Lush Medow *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#e7fff9 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#afffea !important}
+.w3-theme-l3 {color:#000 !important; background-color:#60ffd5 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#10ffbf !important}
+.w3-theme-l1 {color:#fff !important; background-color:#00c08d !important}
+.w3-theme-d1 {color:#fff !important; background-color:#00654a !important}
+.w3-theme-d2 {color:#fff !important; background-color:#005a42 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#004f3a !important}
+.w3-theme-d4 {color:#fff !important; background-color:#004331 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#003829 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#e7fff9 !important}
+.w3-theme-dark {color:#fff !important; background-color:#003829 !important}
+.w3-theme-action {color:#fff !important; background-color:#003829 !important}
+
+.w3-theme {color:#fff !important; background-color:#006e51 !important}
+.w3-text-theme {color:#006e51 !important}
+.w3-theme-border {border-color:#006e51 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#006e51 !important}
+
+
+/** *** 2016 Spicy Mustard *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fdfaf4 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f7efda !important}
+.w3-theme-l3 {color:#000 !important; background-color:#efdfb5 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#e7cf90 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#e0bf6b !important}
+.w3-theme-d1 {color:#fff !important; background-color:#d3a42e !important}
+.w3-theme-d2 {color:#fff !important; background-color:#bc9228 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#a58023 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#8d6e1e !important}
+.w3-theme-d5 {color:#fff !important; background-color:#765c19 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fdfaf4 !important}
+.w3-theme-dark {color:#fff !important; background-color:#765c19 !important}
+.w3-theme-action {color:#fff !important; background-color:#765c19 !important}
+
+.w3-theme {color:#000 !important; background-color:#d8ae47 !important}
+.w3-text-theme {color:#d8ae47 !important}
+.w3-theme-border {border-color:#d8ae47 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#d8ae47 !important}
+
+
+/** *** 2016 Potter's Clay *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fbf3f0 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f3d7cb !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e8ae98 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#dc8664 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#d05e31 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#8e3f20 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#7e381d !important}
+.w3-theme-d3 {color:#fff !important; background-color:#6f3119 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#5f2a16 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#4f2312 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fbf3f0 !important}
+.w3-theme-dark {color:#fff !important; background-color:#4f2312 !important}
+.w3-theme-action {color:#fff !important; background-color:#4f2312 !important}
+
+.w3-theme {color:#fff !important; background-color:#9e4624 !important}
+.w3-text-theme {color:#9e4624 !important}
+.w3-theme-border {border-color:#9e4624 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#9e4624 !important}
+
+
+/** *** 2016 Bodacious *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fbf6f9 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f1e1ed !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e2c4da !important}
+.w3-theme-l2 {color:#000 !important; background-color:#d4a6c8 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#c689b6 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#ae5797 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#9d4c87 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#894276 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#763965 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#622f55 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fbf6f9 !important}
+.w3-theme-dark {color:#fff !important; background-color:#622f55 !important}
+.w3-theme-action {color:#fff !important; background-color:#622f55 !important}
+
+.w3-theme {color:#fff !important; background-color:#b76ba3 !important}
+.w3-text-theme {color:#b76ba3 !important}
+.w3-theme-border {border-color:#b76ba3 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#b76ba3 !important}
+
+
+/** *** 2016 Rose Quarts *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fffcfc !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fdf5f4 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#fceaea !important}
+.w3-theme-l2 {color:#000 !important; background-color:#fae0df !important}
+.w3-theme-l1 {color:#000 !important; background-color:#f9d5d4 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#f1a4a3 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#eb7e7c !important}
+.w3-theme-d3 {color:#fff !important; background-color:#e65755 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#e0312e !important}
+.w3-theme-d5 {color:#fff !important; background-color:#c3201d !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fffcfc !important}
+.w3-theme-dark {color:#fff !important; background-color:#c3201d !important}
+.w3-theme-action {color:#fff !important; background-color:#c3201d !important}
+
+.w3-theme {color:#000 !important; background-color:#f7cac9 !important}
+.w3-text-theme {color:#f7cac9 !important}
+.w3-theme-border {border-color:#f7cac9 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#f7cac9 !important}
+
+
+/** *** 2016 Serenity *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f9fafc !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e9eef6 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d4dded !important}
+.w3-theme-l2 {color:#000 !important; background-color:#becbe4 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#a9badb !important}
+.w3-theme-d1 {color:#fff !important; background-color:#7a95c7 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#6181bd !important}
+.w3-theme-d3 {color:#fff !important; background-color:#4a6eb0 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#3f5e97 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#354e7e !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f9fafc !important}
+.w3-theme-dark {color:#fff !important; background-color:#354e7e !important}
+.w3-theme-action {color:#fff !important; background-color:#354e7e !important}
+
+.w3-theme {color:#000 !important; background-color:#92a8d1 !important}
+.w3-text-theme {color:#92a8d1 !important}
+.w3-theme-border {border-color:#92a8d1 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#92a8d1 !important}
+
+
+/** *** 2016 Peach Echo *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fff7f6 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fde4e1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#fcc9c3 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#faada5 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#f99287 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#f55947 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#f43b26 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#ea220c !important}
+.w3-theme-d4 {color:#fff !important; background-color:#c91e0b !important}
+.w3-theme-d5 {color:#fff !important; background-color:#a71909 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fff7f6 !important}
+.w3-theme-dark {color:#fff !important; background-color:#a71909 !important}
+.w3-theme-action {color:#fff !important; background-color:#a71909 !important}
+
+.w3-theme {color:#fff !important; background-color:#f7786b !important}
+.w3-text-theme {color:#f7786b !important}
+.w3-theme-border {border-color:#f7786b !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#f7786b !important}
+
+
+/** *** 2016 Snorkel Blue *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#e9f5ff !important}
+.w3-theme-l4 {color:#000 !important; background-color:#b5dffd !important}
+.w3-theme-l3 {color:#000 !important; background-color:#6bc0fc !important}
+.w3-theme-l2 {color:#fff !important; background-color:#21a0fa !important}
+.w3-theme-l1 {color:#fff !important; background-color:#0479cc !important}
+.w3-theme-d1 {color:#fff !important; background-color:#024575 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#023e68 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#02365b !important}
+.w3-theme-d4 {color:#fff !important; background-color:#022e4e !important}
+.w3-theme-d5 {color:#fff !important; background-color:#012641 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#e9f5ff !important}
+.w3-theme-dark {color:#fff !important; background-color:#012641 !important}
+.w3-theme-action {color:#fff !important; background-color:#012641 !important}
+
+.w3-theme {color:#fff !important; background-color:#034f84 !important}
+.w3-text-theme {color:#034f84 !important}
+.w3-theme-border {border-color:#034f84 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#034f84 !important}
+
+
+/** *** 2016 Limpet Shell *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f9fdfd !important}
+.w3-theme-l4 {color:#000 !important; background-color:#eaf8f8 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d5f1f2 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#c1eaeb !important}
+.w3-theme-l1 {color:#000 !important; background-color:#ace3e4 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#7bd3d4 !important}
+.w3-theme-d2 {color:#000 !important; background-color:#5fc9cb !important}
+.w3-theme-d3 {color:#fff !important; background-color:#43c0c2 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#37a7a9 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#2e8b8d !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f9fdfd !important}
+.w3-theme-dark {color:#fff !important; background-color:#2e8b8d !important}
+.w3-theme-action {color:#fff !important; background-color:#2e8b8d !important}
+
+.w3-theme {color:#000 !important; background-color:#98ddde !important}
+.w3-text-theme {color:#98ddde !important}
+.w3-theme-border {border-color:#98ddde !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#98ddde !important}
+
+
+/** *** 2016 Lilac Grey *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f9f9fa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#ebeaed !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d6d6db !important}
+.w3-theme-l2 {color:#000 !important; background-color:#c2c1c9 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#aeacb7 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#898696 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#787687 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#696776 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#5a5866 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#4b4a55 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f9f9fa !important}
+.w3-theme-dark {color:#fff !important; background-color:#4b4a55 !important}
+.w3-theme-action {color:#fff !important; background-color:#4b4a55 !important}
+
+.w3-theme {color:#fff !important; background-color:#9896a4 !important}
+.w3-text-theme {color:#9896a4 !important}
+.w3-theme-border {border-color:#9896a4 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#9896a4 !important}
+
+
+/** *** 2016 Iced Coffe *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#faf8f6 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#efe8e1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#dfd2c3 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#cfbba5 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#c0a487 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#a58057 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#93714d !important}
+.w3-theme-d3 {color:#fff !important; background-color:#816344 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#6e553a !important}
+.w3-theme-d5 {color:#fff !important; background-color:#5c4730 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#faf8f6 !important}
+.w3-theme-dark {color:#fff !important; background-color:#5c4730 !important}
+.w3-theme-action {color:#fff !important; background-color:#5c4730 !important}
+
+.w3-theme {color:#fff !important; background-color:#b18f6a !important}
+.w3-text-theme {color:#b18f6a !important}
+.w3-theme-border {border-color:#b18f6a !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#b18f6a !important}
+
+
+/** *** 2016 Fiesta *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fdf3f3 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f8d9d6 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f2b2ad !important}
+.w3-theme-l2 {color:#000 !important; background-color:#eb8c83 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#e4665a !important}
+.w3-theme-d1 {color:#fff !important; background-color:#d13122 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#ba2b1e !important}
+.w3-theme-d3 {color:#fff !important; background-color:#a3261a !important}
+.w3-theme-d4 {color:#fff !important; background-color:#8b2017 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#741b13 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fdf3f3 !important}
+.w3-theme-dark {color:#fff !important; background-color:#741b13 !important}
+.w3-theme-action {color:#fff !important; background-color:#741b13 !important}
+
+.w3-theme {color:#fff !important; background-color:#dd4132 !important}
+.w3-text-theme {color:#dd4132 !important}
+.w3-theme-border {border-color:#dd4132 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#dd4132 !important}
+
+
+/** *** 2016 Buttercup *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fffdf3 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fef9d8 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#fdf3b1 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#fced8b !important}
+.w3-theme-l1 {color:#000 !important; background-color:#fbe764 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#f9dc1f !important}
+.w3-theme-d2 {color:#000 !important; background-color:#f3d306 !important}
+.w3-theme-d3 {color:#000 !important; background-color:#d4b905 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#b69e05 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#988404 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fffdf3 !important}
+.w3-theme-dark {color:#fff !important; background-color:#988404 !important}
+.w3-theme-action {color:#fff !important; background-color:#988404 !important}
+
+.w3-theme {color:#000 !important; background-color:#fae03c !important}
+.w3-text-theme {color:#fae03c !important}
+.w3-theme-border {border-color:#fae03c !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#fae03c !important}
+
+
+/** *** 2016 Green Flash *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f7fcf5 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e4f4dc !important}
+.w3-theme-l3 {color:#000 !important; background-color:#c9e9ba !important}
+.w3-theme-l2 {color:#000 !important; background-color:#aedd97 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#94d274 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#69bf3e !important}
+.w3-theme-d2 {color:#fff !important; background-color:#5da937 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#519430 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#467f29 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#3a6a22 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f7fcf5 !important}
+.w3-theme-dark {color:#fff !important; background-color:#3a6a22 !important}
+.w3-theme-action {color:#fff !important; background-color:#3a6a22 !important}
+
+.w3-theme {color:#fff !important; background-color:#79c753 !important}
+.w3-text-theme {color:#79c753 !important}
+.w3-theme-border {border-color:#79c753 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#79c753 !important}
+
+
+/** *** 2015 Marsala *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f9f4f4 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#ebdbdb !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d8b7b6 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#c49292 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#b06e6d !important}
+.w3-theme-d1 {color:#fff !important; background-color:#864948 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#774140 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#683938 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#5a3130 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#4b2928 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f9f4f4 !important}
+.w3-theme-dark {color:#fff !important; background-color:#4b2928 !important}
+.w3-theme-action {color:#fff !important; background-color:#4b2928 !important}
+
+.w3-theme {color:#fff !important; background-color:#955251 !important}
+.w3-text-theme {color:#955251 !important}
+.w3-theme-border {border-color:#955251 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#955251 !important}
+
+
+/** *** 2014 Radiand Orchid *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fbf6fa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f0e0ed !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e1c1db !important}
+.w3-theme-l2 {color:#000 !important; background-color:#d2a2c9 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#c383b8 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#aa529a !important}
+.w3-theme-d2 {color:#fff !important; background-color:#974989 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#854078 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#723767 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#5f2e56 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fbf6fa !important}
+.w3-theme-dark {color:#fff !important; background-color:#5f2e56 !important}
+.w3-theme-action {color:#fff !important; background-color:#5f2e56 !important}
+
+.w3-theme {color:#fff !important; background-color:#b565a7 !important}
+.w3-text-theme {color:#b565a7 !important}
+.w3-theme-border {border-color:#b565a7 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#b565a7 !important}
+
+
+/** *** 2013 Emerald *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#eafffa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#b8ffee !important}
+.w3-theme-l3 {color:#000 !important; background-color:#70ffde !important}
+.w3-theme-l2 {color:#000 !important; background-color:#29ffcd !important}
+.w3-theme-l1 {color:#fff !important; background-color:#00e0ac !important}
+.w3-theme-d1 {color:#fff !important; background-color:#008a6a !important}
+.w3-theme-d2 {color:#fff !important; background-color:#007a5e !important}
+.w3-theme-d3 {color:#fff !important; background-color:#006b52 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#005c46 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#004d3b !important}
+
+.w3-theme-light {color:#000 !important; background-color:#eafffa !important}
+.w3-theme-dark {color:#fff !important; background-color:#004d3b !important}
+.w3-theme-action {color:#fff !important; background-color:#004d3b !important}
+
+.w3-theme {color:#fff !important; background-color:#009b77 !important}
+.w3-text-theme {color:#009b77 !important}
+.w3-theme-border {border-color:#009b77 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#009b77 !important}
+
+
+/** *** 2012 Tangerine Tango *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fdf3f2 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f8d8d3 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f1b2a7 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#ea8b7b !important}
+.w3-theme-l1 {color:#fff !important; background-color:#e3654f !important}
+.w3-theme-d1 {color:#fff !important; background-color:#c7381f !important}
+.w3-theme-d2 {color:#fff !important; background-color:#b0321c !important}
+.w3-theme-d3 {color:#fff !important; background-color:#9a2c18 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#842515 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#6e1f11 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fdf3f2 !important}
+.w3-theme-dark {color:#fff !important; background-color:#6e1f11 !important}
+.w3-theme-action {color:#fff !important; background-color:#6e1f11 !important}
+
+.w3-theme {color:#fff !important; background-color:#dd4124 !important}
+.w3-text-theme {color:#dd4124 !important}
+.w3-theme-border {border-color:#dd4124 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#dd4124 !important}
+
+
+/** *** 2011 Honeysucle *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fdf5f7 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f7dce4 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#efbac9 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#e797ad !important}
+.w3-theme-l1 {color:#fff !important; background-color:#de7492 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#d13a64 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#c02d57 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#a8274c !important}
+.w3-theme-d4 {color:#fff !important; background-color:#902241 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#781c36 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fdf5f7 !important}
+.w3-theme-dark {color:#fff !important; background-color:#781c36 !important}
+.w3-theme-action {color:#fff !important; background-color:#781c36 !important}
+
+.w3-theme {color:#fff !important; background-color:#d65076 !important}
+.w3-text-theme {color:#d65076 !important}
+.w3-theme-border {border-color:#d65076 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#d65076 !important}
+
+
+/** *** 2010 Turquise *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f4fbfa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#daf1ef !important}
+.w3-theme-l3 {color:#000 !important; background-color:#b5e3de !important}
+.w3-theme-l2 {color:#000 !important; background-color:#90d5ce !important}
+.w3-theme-l1 {color:#000 !important; background-color:#6bc7be !important}
+.w3-theme-d1 {color:#fff !important; background-color:#3fa69c !important}
+.w3-theme-d2 {color:#fff !important; background-color:#38948b !important}
+.w3-theme-d3 {color:#fff !important; background-color:#318179 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#2a6f68 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#235c57 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f4fbfa !important}
+.w3-theme-dark {color:#fff !important; background-color:#235c57 !important}
+.w3-theme-action {color:#fff !important; background-color:#235c57 !important}
+
+.w3-theme {color:#fff !important; background-color:#45b8ac !important}
+.w3-text-theme {color:#45b8ac !important}
+.w3-theme-border {border-color:#45b8ac !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#45b8ac !important}
+
+
+/** *** 2009 Mimosa *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fefbf5 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fcf2dc !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f9e6ba !important}
+.w3-theme-l2 {color:#000 !important; background-color:#f5d997 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#f2cd75 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#ecb535 !important}
+.w3-theme-d2 {color:#000 !important; background-color:#e9ab18 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#ce9613 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#b08010 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#936b0e !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fefbf5 !important}
+.w3-theme-dark {color:#fff !important; background-color:#936b0e !important}
+.w3-theme-action {color:#fff !important; background-color:#936b0e !important}
+
+.w3-theme {color:#000 !important; background-color:#efc050 !important}
+.w3-text-theme {color:#efc050 !important}
+.w3-theme-border {border-color:#efc050 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
+
+
+/** *** 2008 Blue Izis *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#f5f5fa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#dedeed !important}
+.w3-theme-l3 {color:#000 !important; background-color:#bdbedb !important}
+.w3-theme-l2 {color:#fff !important; background-color:#9c9dc9 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#7a7cb8 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#505395 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#474985 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#3e4074 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#363763 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#2d2e53 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f5f5fa !important}
+.w3-theme-dark {color:#fff !important; background-color:#2d2e53 !important}
+.w3-theme-action {color:#fff !important; background-color:#2d2e53 !important}
+
+.w3-theme {color:#fff !important; background-color:#5b5ea6 !important}
+.w3-text-theme {color:#5b5ea6 !important}
+.w3-theme-border {border-color:#5b5ea6 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#5b5ea6 !important}
+
+
+/** *** 2007 Chili Pepper *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fbeff1 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f3cbd1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e796a2 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#db6274 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#ce2f47 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#8a1f2f !important}
+.w3-theme-d2 {color:#fff !important; background-color:#7b1c2a !important}
+.w3-theme-d3 {color:#fff !important; background-color:#6c1825 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#5c1520 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#4d111a !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fbeff1 !important}
+.w3-theme-dark {color:#fff !important; background-color:#4d111a !important}
+.w3-theme-action {color:#fff !important; background-color:#4d111a !important}
+
+.w3-theme {color:#fff !important; background-color:#9b2335 !important}
+.w3-text-theme {color:#9b2335 !important}
+.w3-theme-border {border-color:#9b2335 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#9b2335 !important}
+
+
+/** *** 2006 Sand Dollar *** **/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fdfcfb !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f9f5f2 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f2ece5 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#ece2d8 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#e5d9cb !important}
+.w3-theme-d1 {color:#000 !important; background-color:#d1bba2 !important}
+.w3-theme-d2 {color:#000 !important; background-color:#c4a687 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#b6926b !important}
+.w3-theme-d4 {color:#fff !important; background-color:#a67d52 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#8a6844 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fdfcfb !important}
+.w3-theme-dark {color:#fff !important; background-color:#8a6844 !important}
+.w3-theme-action {color:#fff !important; background-color:#8a6844 !important}
+
+.w3-theme {color:#000 !important; background-color:#dfcfbe !important}
+.w3-text-theme {color:#dfcfbe !important}
+.w3-theme-border {border-color:#dfcfbe !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#dfcfbe !important}
