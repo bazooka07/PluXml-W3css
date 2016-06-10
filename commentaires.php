@@ -16,8 +16,8 @@
 			<!-- display comment -->
 			<div id="com-<?php $plxShow->comIndex(); ?>">
 
-				<p class="w3-margin-0 w3-margin-left">			
-					<span class="coment-author w3-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
+				<p class="w3-margin-0">			
+					<span class="coment-author w3-left w3-margin-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
 					<span class="coment-date w3-margin-right "><i class="fa fa-calendar" aria-hidden="true" ></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time>  </span> 
 					<span class="w3-right w3-tag w3-theme comment-link-reply">
 						<span class="coment-link "><a class="nbcom" href="<?php $plxShow->ComUrl(); ?>" title=" #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?>"><i class="fa fa-link" aria-hidden="true"></i></a></span> 
@@ -52,7 +52,7 @@
 			<fieldset>
 
 				<!-- quote the message  if reply -->
-				<div id="id_answer" class=" w3-margin-left  " ></div>
+				<div id="id_answer" class="  w3-margin-bottom  " ></div>
 				
 				<p>
 					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="text" id="id_name" name="name"  value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" required>
@@ -81,16 +81,16 @@
 					</p>
 				<?php endif; ?>
 
-				<p>
+				
 					<input type="hidden" id="id_parent" name="parent" value="<?php $plxShow->comGet('parent',''); ?>" />
-					<input class="w3-btn w3-section w3-theme " type="submit" value="<?php $plxShow->lang('SEND') ?>" />
-				</p>
+					<input class="w3-btn w3-theme " type="submit" value="<?php $plxShow->lang('SEND') ?>" />
+				
 			</fieldset>
 	</form>
 
 	<script>
 	function replyCom(idCom) {
-		document.getElementById('id_answer').innerHTML='<?php $plxShow->lang('REPLY_TO'); ?> :';
+		document.getElementById('id_answer').innerHTML='<p><b><?php $plxShow->lang('REPLY_TO'); ?> :</b></p>';
 		document.getElementById('id_answer').innerHTML+=document.getElementById('com-'+idCom).innerHTML;
 		document.getElementById('id_answer').innerHTML+='<a rel="nofollow" href="<?php $plxShow->artUrl(); ?>#form" onclick="cancelCom()" class="w3-tag w3-theme" href="http://www.w3schools.com"><?php $plxShow->lang('CANCEL'); ?></a>';
 		document.getElementById('id_answer').style.display='inline-block';
