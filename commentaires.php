@@ -50,6 +50,10 @@
 
 	<form id="form" action="<?php $plxShow->artUrl(); ?>#form" method="post">
 			<fieldset>
+
+				<!-- quote the message  if reply -->
+				<div id="id_answer" class=" w3-margin-left  " ></div>
+				
 				<p>
 					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="text" id="id_name" name="name"  value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" required>
 					<label class="w3-label w3-validate" for="id_name"><?php $plxShow->lang('NAME') ?> </label>
@@ -62,8 +66,6 @@
 					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="url" id="id_site" name="site"  value="<?php $plxShow->comGet('site',''); ?>"  >
 					<label class="w3-label w3-validate" for="id_site"><?php $plxShow->lang('WEBSITE') ?> </label>
 				</p>
-				<!-- quote the message  if reply -->
-				<div id="id_answer" class=" w3-margin-left  " ></div>
 				
 				<p>
 					<textarea class="w3-input  w3-animate-input w3-theme-border" style="width:75% "   id="id_content" name="content" required ><?php $plxShow->comGet('content',''); ?></textarea>
@@ -90,7 +92,7 @@
 	function replyCom(idCom) {
 		document.getElementById('id_answer').innerHTML='<?php $plxShow->lang('REPLY_TO'); ?> :';
 		document.getElementById('id_answer').innerHTML+=document.getElementById('com-'+idCom).innerHTML;
-		document.getElementById('id_answer').innerHTML+='<a rel="nofollow" href="<?php $plxShow->artUrl(); ?>#form" onclick="cancelCom()" class="w3-tag w3-theme  w3-opacity" href="http://www.w3schools.com"><?php $plxShow->lang('CANCEL'); ?></a>';
+		document.getElementById('id_answer').innerHTML+='<a rel="nofollow" href="<?php $plxShow->artUrl(); ?>#form" onclick="cancelCom()" class="w3-tag w3-theme" href="http://www.w3schools.com"><?php $plxShow->lang('CANCEL'); ?></a>';
 		document.getElementById('id_answer').style.display='inline-block';
 		document.getElementById('id_parent').value=idCom;
 		document.getElementById('id01').focus();

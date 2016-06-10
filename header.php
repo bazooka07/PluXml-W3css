@@ -11,13 +11,11 @@
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/w3.css" media="screen"/>
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/w3-custom.css" media="screen"/>
-	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/w3-theme.css" media="screen"/>
-	<script type="text/javascript" src="<?php $plxShow->template(); ?>/css/w3.js"></script>
+	<!-- <script type="text/javascript" src="<?php $plxShow->template(); ?>/css/w3.js"></script> -->
 	<?php $plxShow->templateCss() ?>
 	<?php $plxShow->pluginsCss() ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
-	<!-- Font-Awesome --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"><!-- -->
 </head>
 
 <body id="top" class="w3-theme-dark">
@@ -35,17 +33,29 @@
 			<?php $plxShow->lang('HOME') ?>
 		</a>
 		</li>
-	<?php $plxShow->staticList('','<li class="w3-hide-small  #static_status w3-theme-dark" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-hide-small w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
+	<?php $plxShow->staticList('','<li class="w3-hide-small  #static_status w3-theme-dark  w3-hover-shadow" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-hide-small w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
 	</ul>
 
 	<!-- Navbar on small screens -->
-	<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium "  >
+	<div id="navDemo" class="menu-small w3-hide w3-hide-large w3-hide-medium "  >
 		  <ul class="w3-navbar w3-left-align w3-large w3-theme-dark w3-padding-bottom ">
-			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id-alt"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>', '<div class="w3-padding-large ">#group_name</div>  '); ?>
+			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>', '<div class="w3-padding-large ">#group_name</div>  '); ?>
 		  </ul>
 	</div>
 	
 </nav>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myMenu() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
 <!-- Header -->
 <div class="w3-container w3-theme w3-padding">
