@@ -24,7 +24,7 @@
 					  |	<span class="coment-reply  "><a rel="nofollow" title="<?php $plxShow->lang('REPLY'); ?>" href="<?php $plxShow->artUrl(); ?>#form" onclick="replyCom('<?php $plxShow->comIndex() ?>')"> <i class="fa fa-share" aria-hidden="true"></i><!-- <?php $plxShow->lang('REPLY'); ?> --></a></span>
 					</span>
 				</p>
-				<blockquote class="w3-margin">
+				<blockquote class="w3-margin w3-padding-bottom ">
 					<p class="content_com type-<?php $plxShow->comType(); ?> w3-margin-0"><?php $plxShow->comContent(); ?></p>
 				</blockquote>
 
