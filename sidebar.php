@@ -10,7 +10,7 @@
 			<ul class="lastart-list unstyled-list "><?php $plxShow->lastArtList('<li> <a class="#art_status" href="#art_url" title="#art_title">#art_title</a></li>'); ?></ul>
 
 			<h3><i class="fa fa-tags" aria-hidden="true" ></i> <?php $plxShow->lang('TAGS'); ?></h3>
-			<ul class="tag-list"><?php $plxShow->tagList('<li class="tag #tag_size"><a class="#tag_status" href="#tag_url" title="#tag_name">#tag_name</a></li>'); ?></ul>
+			<ul class="tag-list w3-padding-0 w3-padding-left"><?php $plxShow->tagList('<li class="tag #tag_size"><a class="#tag_status" href="#tag_url" title="#tag_name">#tag_name</a></li>'); ?></ul>
 
 			<h3><i class="fa fa-comments-o" aria-hidden="true"></i> <?php $plxShow->lang('LATEST_COMMENTS'); ?></h3>
 			<ul class="lastcom-list unstyled-list"><?php $plxShow->lastComList('<li><a href="#com_url">#com_author '.$plxShow->getLang('SAID').' : #com_content(34)</a></li>'); ?></ul>

@@ -33,7 +33,7 @@
 			<?php $plxShow->lang('HOME') ?>
 		</a>
 		</li>
-	<?php $plxShow->staticList('','<li class="w3-hide-small  #static_status w3-theme-dark  w3-hover-shadow" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-hide-small w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
+	<?php $plxShow->staticList('','<li class="w3-hide-small w3-theme-dark w3-hover-shadow #static_status" id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme ">#static_name</a></li>', '<div class="w3-hide-small w3-padding-large  w3-hover-theme ">#group_name</div>  ' ); ?>
 	</ul>
 
 	<!-- Navbar on small screens -->

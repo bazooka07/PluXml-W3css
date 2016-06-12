@@ -48,27 +48,27 @@
 		<i class="fa fa-pencil" aria-hidden="true"></i> <?php $plxShow->lang('WRITE_A_COMMENT') ?>
 	</h2>
 
-	<form id="form" action="<?php $plxShow->artUrl(); ?>#form" method="post">
-			<fieldset>
+	<form id="form"  class="w3-margin-bottom" action="<?php $plxShow->artUrl(); ?>#form" method="post">
+			<fieldset class="w3-theme-l4">
 
 				<!-- quote the message  if reply -->
 				<div id="id_answer" class="  w3-margin-bottom  " ></div>
 				
 				<p>
-					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="text" id="id_name" name="name"  value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" required>
+					<input class="w3-input w3-theme-l5 w3-animate-input w3-theme-border" style="width:66%" type="text" id="id_name" name="name"  value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" required>
 					<label class="w3-label w3-validate" for="id_name"><?php $plxShow->lang('NAME') ?> </label>
 				</p>
 				<p>
-					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="email" id="id_mail" name="mail"  value="<?php $plxShow->comGet('mail',''); ?>" >
+					<input class="w3-input w3-theme-l5 w3-animate-input w3-theme-border" style="width:66%" type="email" id="id_mail" name="mail"  value="<?php $plxShow->comGet('mail',''); ?>" >
 					<label class="w3-label w3-validate" for="id_mail"><?php $plxShow->lang('EMAIL') ?> </label>
 				</p>
 				<p>
-					<input class="w3-input  w3-animate-input w3-theme-border" style="width:50%" type="url" id="id_site" name="site"  value="<?php $plxShow->comGet('site',''); ?>"  >
+					<input class="w3-input w3-theme-l5 w3-animate-input w3-theme-border" style="width:66%" type="url" id="id_site" name="site"  value="<?php $plxShow->comGet('site',''); ?>"  >
 					<label class="w3-label w3-validate" for="id_site"><?php $plxShow->lang('WEBSITE') ?> </label>
 				</p>
 				
 				<p>
-					<textarea class="w3-input  w3-animate-input w3-theme-border" style="width:75% "   id="id_content" name="content" required ><?php $plxShow->comGet('content',''); ?></textarea>
+					<textarea class="w3-input w3-theme-l5 w3-animate-input w3-theme-border" style="width:66% "   id="id_content" name="content" required ><?php $plxShow->comGet('content',''); ?></textarea>
 					<label class="w3-label w3-validate " for="id_content" ><?php $plxShow->lang('COMMENT') ?> </label>
 				</p>
 
@@ -76,7 +76,7 @@
 
 				<?php if($plxShow->plxMotor->aConf['capcha']): ?>
 					<p>
-						<input class="w3-input   w3-theme-border"  type="text" id="id_rep" name="rep" maxlength="1" style="width:50% " value="<?php $plxShow->comGet('site',''); ?>"  required >
+						<input class="w3-input w3-theme-l5   w3-theme-border"  type="text" id="id_rep" name="rep" maxlength="1" style="width:4em " value="<?php $plxShow->comGet('site',''); ?>"  required >
 						<label class="w3-label w3-validate w3-tooltip" for="id_rep"><?php $plxShow->capchaQ(); ?>  <span class="w3-margin-left w3-text w3-theme-light"> <i class="fa fa-info-circle" aria-hidden="true"></i> <?php echo $plxShow->lang('ANTISPAM_WARNING') ?></span> </label>
 					</p>
 				<?php endif; ?>
