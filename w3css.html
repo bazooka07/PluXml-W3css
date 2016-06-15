@@ -1,15 +1,382 @@
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/w3.css">
-<body class="w3-container">
+
+		<!DOCTYPE html>
+		<html>
+		<title>W3.CSS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/w3.css">
+		<body class="w3-container">
+
+		<h1>Examples</h1>
+	
+		<h2>Background Color</h2>
+<div class="w3-container w3-red">
+<h1>London</h1>
+<p>London is the capital city of England.
+It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<div class="w3-container w3-green">
+<h1>London</h1>
+<p>London is the capital city of England.
+It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<pre><code>&lt;div class="w3-container w3-red"&gt;
+&lt;h1&gt;London&lt;/h1&gt;
+&lt;p&gt;London is the capital city of England.
+It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-green"&gt;
+&lt;h1&gt;London&lt;/h1&gt;
+&lt;p&gt;London is the capital city of England.
+It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Text Color</h2>
+<div class="w3-text-red">
+  <h2>London</h2>
+  <p>London is the most populous city in the United Kingdom.</p>
+</div> 
+
+<pre><code>&lt;div class="w3-text-red"&gt;
+  &lt;h2&gt;London&lt;/h2&gt;
+  &lt;p&gt;London is the most populous city in the United Kingdom.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Notes, Panels, and Quotes</h2>
+<p><div class="w3-container w3-leftbar w3-sand">
+  <p><i>"Make it as simple as possible, but not simpler."</i></p>
+  <p>Albert Einstein</p>
+</div> </p>
+
+<pre><code>&lt;div class="w3-container w3-leftbar w3-sand"&gt;
+  &lt;p&gt;&lt;i&gt;"Make it as simple as possible, but not simpler."&lt;/i&gt;&lt;/p&gt;
+  &lt;p&gt;Albert Einstein&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Hide (Close) a Container</h2>
+<div class="w3-container w3-red">
+  <span class="w3-closebtn" onclick="this.parentElement.style.display='none'">X</span>
+  <p>To close this container, click on the X in the upper right corner.</p>
+</div> 
+
+<pre><code>&lt;div class="w3-container w3-red"&gt;
+  &lt;span class="w3-closebtn" onclick="this.parentElement.style.display='none'"&gt;X&lt;/span&gt;
+  &lt;p&gt;To close this container, click on the X in the upper right corner.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Show (Open) a Container</h2>
+<button class="w3-btn" onclick="document.getElementById('id01').style.display='block'">Show container</button> 
+
+<div id="id01" class="w3-container w3-red" style="display:none">
+  <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">x</span>
+  <p>London is the capital city of England.</p>
+</div>
+
+<pre><code>&lt;button class="w3-btn" onclick="document.getElementById('id01').style.display='block'"&gt;Show container&lt;/button&gt; 
+
+&lt;div id="id01" class="w3-container w3-red" style="display:none"&gt;
+  &lt;span onclick="this.parentElement.style.display='none'" class="w3-closebtn"&gt;x&lt;/span&gt;
+  &lt;p&gt;London is the capital city of England.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2>Font-Size Classes</h2>
+
+<div class="w3-tiny">w3-tiny</div>
+<div class="w3-small">w3-small</div>
+<div class="w3-medium">w3-medium (Default)</div>
+<div class="w3-large">w3-large</div>
+<div class="w3-xlarge">w3-xlarge</div>
+<div class="w3-xxlarge">w3-xxlarge</div>
+<div class="w3-xxxlarge">w3-xxxlarge</div>
+<div class="w3-jumbo">w3-jumbo</div>
+
+
+
+<pre><code>&lt;div class="w3-tiny"&gt;w3-tiny&lt;/div&gt;
+&lt;div class="w3-small"&gt;w3-small&lt;/div&gt;
+&lt;div class="w3-medium"&gt;w3-medium (Default)&lt;/div&gt;
+&lt;div class="w3-large"&gt;w3-large&lt;/div&gt;
+&lt;div class="w3-xlarge"&gt;w3-xlarge&lt;/div&gt;
+&lt;div class="w3-xxlarge"&gt;w3-xxlarge&lt;/div&gt;
+&lt;div class="w3-xxxlarge"&gt;w3-xxxlarge&lt;/div&gt;
+&lt;div class="w3-jumbo"&gt;w3-jumbo&lt;/div&gt;
+</code></pre>
+
+
+
+<hr />
+
+<h2>Border Classes</h2>
+
+<div class="w3-border">
+  <p>I have borders on all sides.</p>
+</div>
+
+<div class="w3-border-bottom w3-border-red">
+  <p>I have a red bottom border.</p>
+</div>
+
+<div class="w3-border w3-round-xlarge">
+  <p>I have rounded borders.</p>
+</div>
+
+<div class="w3-container w3-pale-blue w3-leftbar w3-border-blue">
+  <p>I have a blue leftbar.</p>
+</div>
+
+<pre><code>&lt;div class="w3-border"&gt;
+  &lt;p&gt;I have borders on all sides.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-border-bottom w3-border-red"&gt;
+  &lt;p&gt;I have a red bottom border.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-border w3-round-xlarge"&gt;
+  &lt;p&gt;I have rounded borders.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-pale-blue w3-leftbar w3-border-blue"&gt;
+  &lt;p&gt;I have a blue leftbar.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying Notes</h2>
+<div class="w3-container w3-pale-blue w3-leftbar w3-border-blue">
+  <p>London is the most populous city in the United Kingdom,
+  with a metropolitan area of over 9 million inhabitants.</p>
+</div> 
+
+<pre><code>&lt;div class="w3-container w3-pale-blue w3-leftbar w3-border-blue"&gt;
+  &lt;p&gt;London is the most populous city in the United Kingdom,
+  with a metropolitan area of over 9 million inhabitants.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying Quotes</h2>
+<div class="w3-container w3-leftbar w3-light-grey">
+  <p><i>"Make it as simple as possible, but not simpler."</i></p>
+  <p>Albert Einstein</p>
+</div>  
+
+<pre><code>&lt;div class="w3-container w3-leftbar w3-light-grey"&gt;
+  &lt;p&gt;&lt;i&gt;"Make it as simple as possible, but not simpler."&lt;/i&gt;&lt;/p&gt;
+  &lt;p&gt;Albert Einstein&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Padding Classes</h2>
+<div class="w3-container w3-section w3-padding-4 w3-orange">
+  <h4>w3-padding-4</h4>
+  <p>I have 4px top and bottom padding</p>
+</div>
+
+<div class="w3-container w3-section w3-padding-8 w3-orange">
+  <h4>w3-padding-8</h4>
+  <p>I have 8px top and bottom padding</p>
+</div>
+
+<div class="w3-container w3-section w3-padding-16 w3-orange">
+  <h4>w3-padding-16</h4>
+  <p>I have 16px top and bottom padding</p>
+</div>
+
+<div class="w3-container w3-section w3-padding-24 w3-orange">
+  <h4>w3-padding-24</h4>
+  <p>I have 24px top and bottom padding</p>
+</div>
+
+</div>
+
+<pre><code>&lt;div class="w3-container w3-section w3-padding-4 w3-orange"&gt;
+  &lt;h4&gt;w3-padding-4&lt;/h4&gt;
+  &lt;p&gt;I have 4px top and bottom padding&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-section w3-padding-8 w3-orange"&gt;
+  &lt;h4&gt;w3-padding-8&lt;/h4&gt;
+  &lt;p&gt;I have 8px top and bottom padding&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-section w3-padding-16 w3-orange"&gt;
+  &lt;h4&gt;w3-padding-16&lt;/h4&gt;
+  &lt;p&gt;I have 16px top and bottom padding&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-section w3-padding-24 w3-orange"&gt;
+  &lt;h4&gt;w3-padding-24&lt;/h4&gt;
+  &lt;p&gt;I have 24px top and bottom padding&lt;/p&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<hr />
+<h2>Margin Classes</h2>
+<div class="w3-container w3-margin w3-green">
+  <p>The w3-margin class adds 16px margin to all sides of an element.</p>
+</div>
+
+<div class="w3-container w3-margin-bottom w3-green">
+  <p>The w3-margin-bottom class adds a 16px bottom margin to an element.</p>
+</div>
+
+<div class="w3-container w3-margin-left w3-green">
+  <p>The w3-margin-left class adds a 16px left margin to an element.</p>
+</div>
+
+<div class="w3-container w3-margin-right w3-green">
+  <p>The w3-margin-right class adds a 16px right margin to an element.</p>
+</div>
+
+<div class="w3-container w3-margin-top w3-green">
+  <p>The w3-margin-top class adds a 16px top margin to an element.</p>
+</div>
+
+<pre><code>&lt;div class="w3-container w3-margin w3-green"&gt;
+  &lt;p&gt;The w3-margin class adds 16px margin to all sides of an element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-margin-bottom w3-green"&gt;
+  &lt;p&gt;The w3-margin-bottom class adds a 16px bottom margin to an element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-margin-left w3-green"&gt;
+  &lt;p&gt;The w3-margin-left class adds a 16px left margin to an element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-margin-right w3-green"&gt;
+  &lt;p&gt;The w3-margin-right class adds a 16px right margin to an element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-margin-top w3-green"&gt;
+  &lt;p&gt;The w3-margin-top class adds a 16px top margin to an element.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+  <h2>Round Classes</h2>
+
+<div class="w3-container">
+  <div class="w3-round-small w3-teal w3-padding w3-margin-bottom">w3-round-small</div>
+  <div class="w3-round w3-teal w3-padding w3-margin-bottom">w3-round</div>
+  <div class="w3-round-large w3-teal w3-padding w3-margin-bottom">w3-round-large</div>
+  <div class="w3-round-xlarge w3-teal w3-padding w3-margin-bottom">w3-round-xlarge</div>
+  <div class="w3-round-jumbo w3-teal w3-padding w3-margin-bottom">w3-round-jumbo</div>
+</div>
+
+<pre><code>&lt;div class="w3-container"&gt;
+  &lt;h2&gt;Round Classes&lt;/h2&gt;
+  &lt;div class="w3-round-small w3-teal w3-padding w3-margin-bottom"&gt;w3-round-small&lt;/div&gt;
+  &lt;div class="w3-round w3-teal w3-padding w3-margin-bottom"&gt;w3-round&lt;/div&gt;
+  &lt;div class="w3-round-large w3-teal w3-padding w3-margin-bottom"&gt;w3-round-large&lt;/div&gt;
+  &lt;div class="w3-round-xlarge w3-teal w3-padding w3-margin-bottom"&gt;w3-round-xlarge&lt;/div&gt;
+  &lt;div class="w3-round-jumbo w3-teal w3-padding w3-margin-bottom"&gt;w3-round-jumbo&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Floating Classes</h2>
+<div class="w3-container w3-section w3-light-grey w3-padding-0">
+  <div class="w3-left w3-red w3-padding">w3-left</div>
+  <div class="w3-right w3-blue w3-padding">w3-right</div>
+</div>
+
+<pre><code>&lt;div class="w3-container w3-section w3-light-grey w3-padding-0"&gt;
+  &lt;div class="w3-left w3-red w3-padding"&gt;w3-left&lt;/div&gt;
+  &lt;div class="w3-right w3-blue w3-padding"&gt;w3-right&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Button Colors</h2>
+<p><button class="w3-btn w3-khaki">Khaki</button>
+<button class="w3-btn w3-yellow">Yellow</button>
+<button class="w3-btn w3-orange">Orange</button>
+<button class="w3-btn w3-red">Red</button>
+<button class="w3-btn w3-purple">Purple</button></p>
+
+<pre><code>&lt;button class="w3-btn w3-khaki"&gt;Khaki&lt;/button&gt;
+&lt;button class="w3-btn w3-yellow"&gt;Yellow&lt;/button&gt;
+&lt;button class="w3-btn w3-orange"&gt;Orange&lt;/button&gt;
+&lt;button class="w3-btn w3-red"&gt;Red&lt;/button&gt;
+&lt;button class="w3-btn w3-purple"&gt;Purple&lt;/button&gt;
+</code></pre>
+
+<hr />
+<h2>Hover Colors</h2>
+<p><button class="w3-btn w3-hover-khaki">Khaki</button>
+<button class="w3-btn w3-hover-white">White</button>
+<button class="w3-btn w3-hover-red">Red</button>
+<button class="w3-btn w3-hover-purple">Purple</button></p>
+
+<pre><code>&lt;button class="w3-btn w3-hover-khaki"&gt;Khaki&lt;/button&gt;
+&lt;button class="w3-btn w3-hover-white"&gt;White&lt;/button&gt;
+&lt;button class="w3-btn w3-hover-red"&gt;Red&lt;/button&gt;
+&lt;button class="w3-btn w3-hover-purple"&gt;Purple&lt;/button&gt;
+</code></pre>
+
+<hr />
+<h2>Button Shapes</h2>
+<p><button class="w3-btn">Normal</button>
+<button class="w3-btn w3-round">Round</button>
+<button class="w3-btn w3-round-large">Rounder</button>
+<button class="w3-btn w3-round-xlarge">and Rounder</button>
+<button class="w3-btn w3-round-xxlarge">and Rounder</button></p>
+
+<pre><code>&lt;button class="w3-btn"&gt;Normal&lt;/button&gt;
+&lt;button class="w3-btn w3-round"&gt;Round&lt;/button&gt;
+&lt;button class="w3-btn w3-round-large"&gt;Rounder&lt;/button&gt;
+&lt;button class="w3-btn w3-round-xlarge"&gt;and Rounder&lt;/button&gt;
+&lt;button class="w3-btn w3-round-xxlarge"&gt;and Rounder&lt;/button&gt;
+</code></pre>
+
+<hr />
+<h2>Button Sizes</h2>
+<p><button class="w3-btn w3-tiny">Tiny</button>
+<button class="w3-btn w3-small">Small</button>
+<button class="w3-btn w3-medium">Medium</button>
+<button class="w3-btn w3-large">Large</button>
+<button class="w3-btn w3-xlarge">xLarge</button></p>
+
+<pre><code>&lt;button class="w3-btn w3-tiny"&gt;Tiny&lt;/button&gt;
+&lt;button class="w3-btn w3-small"&gt;Small&lt;/button&gt;
+&lt;button class="w3-btn w3-medium"&gt;Medium&lt;/button&gt;
+&lt;button class="w3-btn w3-large"&gt;Large&lt;/button&gt;
+&lt;button class="w3-btn w3-xlarge"&gt;xLarge&lt;/button&gt;
+</code></pre>
+
+<hr />
+<h2>Colored Cards</h2>
+<div style="width:500px; height:100px" class="w3-card-4 w3-yellow"><p>w3-card</p></div>
+
+
+<pre><code>&lt;div class="w3-card-4 w3-yellow"&gt;&lt;p&gt;w3-card&lt;/p&gt;&lt;/div&gt;
+</code></pre>
+
+
+<hr />
 
 <h2>Displaying Alerts</h2>
-
-<p>The w3-container class can be use to display alerts.</p>
-
-<p>Alerts are often displayed using a strong color:</p>
 <div class="w3-container w3-red">
   <h3>Danger!</h3>
   <p>Red often indicates a dangerous or potentially negative action.</p>
@@ -35,5 +402,1704 @@
   <p>Blue often indicates a neutral informative change or action.</p>
 </div>
 
-</body>
-</html> 
+<pre><code>&lt;div class="w3-container w3-red"&gt;
+  &lt;h3&gt;Danger!&lt;/h3&gt;
+  &lt;p&gt;Red often indicates a dangerous or potentially negative action.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-orange w3-text-white"&gt;
+  &lt;h3&gt;Warning!&lt;/h3&gt;
+  &lt;p&gt;Orange often indicates a warning that might need attention.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-yellow"&gt;
+  &lt;h3&gt;Warning!&lt;/h3&gt;
+  &lt;p&gt;Yellow often indicates a warning that might need attention.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-green"&gt;
+  &lt;h3&gt;Success!&lt;/h3&gt;
+  &lt;p&gt;Green often indicates something successful or positive.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="w3-container w3-blue"&gt;
+  &lt;h3&gt;Info!&lt;/h3&gt;
+  &lt;p&gt;Blue often indicates a neutral informative change or action.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Closing Alerts</h2>
+<div class="w3-container w3-section w3-red">
+<span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
+  <h3>Danger!</h3>
+  <p>Red often indicates a dangerous or potentially negative action.</p>
+</div>
+
+<pre><code>&lt;div class="w3-container w3-section w3-red"&gt;
+&lt;span onclick="this.parentElement.style.display='none'" class="w3-closebtn"&gt;&amp;times;&lt;/span&gt;
+  &lt;h3&gt;Danger!&lt;/h3&gt;
+  &lt;p&gt;Red often indicates a dangerous or potentially negative action.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying a Table</h2>
+<table class="w3-table w3-striped w3-bordered w3-border w3-hoverable">
+<thead>
+<tr class="w3-light-grey">
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Points</th>
+</tr>
+</thead>
+<tr>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+</tr>
+<tr>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+</tr>
+<tr>
+  <td>Adam</td>
+  <td>Johnson</td>
+  <td>67</td>
+</tr>
+</table>
+
+<pre><code>&lt;table class="w3-table w3-striped w3-bordered w3-border w3-hoverable"&gt;
+&lt;thead&gt;
+&lt;tr class="w3-light-grey"&gt;
+  &lt;th&gt;First Name&lt;/th&gt;
+  &lt;th&gt;Last Name&lt;/th&gt;
+  &lt;th&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;
+  &lt;td&gt;Jill&lt;/td&gt;
+  &lt;td&gt;Smith&lt;/td&gt;
+  &lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Eve&lt;/td&gt;
+  &lt;td&gt;Jackson&lt;/td&gt;
+  &lt;td&gt;94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Adam&lt;/td&gt;
+  &lt;td&gt;Johnson&lt;/td&gt;
+  &lt;td&gt;67&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+
+<hr />
+<h2>Basic List</h2>
+<ul class="w3-ul">
+  <li>Jill</li>
+  <li>Eve</li>
+  <li>Adam</li>
+</ul>
+
+<pre><code>&lt;ul class="w3-ul"&gt;
+  &lt;li&gt;Jill&lt;/li&gt;
+  &lt;li&gt;Eve&lt;/li&gt;
+  &lt;li&gt;Adam&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<hr />
+<h2>Hoverable list</h2>
+<ul class="w3-ul w3-hoverable">
+  <li>Jill</li>
+  <li>Eve</li>
+  <li>Adam</li>
+</ul>
+
+<pre><code>&lt;ul class="w3-ul w3-hoverable"&gt;
+  &lt;li&gt;Jill&lt;/li&gt;
+  &lt;li&gt;Eve&lt;/li&gt;
+  &lt;li&gt;Adam&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<hr />
+<h2>Rounded Image</h2>
+<p><img src="fjords.jpg" class="w3-round" alt="Norway"></p>
+
+<pre><code>&lt;img src="img_fjords.jpg" class="w3-round" alt="Norway"&gt;
+</code></pre>
+
+<hr />
+<h2>Circled Image</h2>
+<p><img src="fjords.jpg" class="w3-circle" alt="Norway"> </p>
+
+<pre><code>&lt;img src="fjords.jpg" class="w3-circle" alt="Norway"&gt;
+</code></pre>
+
+<hr />
+<h2>Bordered Image</h2>
+<p><img src="fjords.jpg" class="w3-border w3-padding" alt="Norway"> </p>
+
+<pre><code> &lt;img src="fjords.jpg" class="w3-border w3-padding" alt="Norway"&gt;
+</code></pre>
+
+<hr />
+<h2>Hoverable Image</h2>
+<p><img src="fjords.jpg" class="w3-hover-opacity" alt="Norway"> </p>
+
+<pre><code>&lt;img src="fjords.jpg" class="w3-hover-opacity" alt="Norway"&gt;
+</code></pre>
+
+<hr />
+<h2>Image as a Card</h2>
+
+<div class="w3-card-4"  style="width:600px">
+  <img src="fjords.jpg"  alt="Norway" style="width:100%">
+</div> 
+
+<pre><code>&lt;div class="w3-card-4"&gt;
+  &lt;img src="fjords.jpg"  alt="Norway"&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Image Text</h2>
+<div class="w3-display-container" style="width:600px">
+  <img src="fjords.jpg"  alt="Norway"  >
+  <div class="w3-display-topleft w3-container w3-text-red">Top Left</div>
+  <div class="w3-display-topright w3-container w3-text-red">Top Right</div>
+  <div class="w3-display-bottomleft w3-container w3-text-red">Bottom Left</div>
+  <div class="w3-display-bottomright w3-container w3-text-red">Bottom Right</div>
+  <div class="w3-display-middle w3-large w3-text-red">Middle</div>
+</div>
+
+<pre><code>&lt;div class="w3-display-container"&gt;
+  &lt;img src="fjords.jpg"  alt="Norway"&gt;
+  &lt;div class="w3-display-topleft w3-container w3-text-red"&gt;Top Left&lt;/div&gt;
+  &lt;div class="w3-display-topright w3-container w3-text-red"&gt;Top Right&lt;/div&gt;
+  &lt;div class="w3-display-bottomleft w3-container w3-text-red"&gt;Bottom Left&lt;/div&gt;
+  &lt;div class="w3-display-bottomright w3-container w3-text-red"&gt;Bottom Right&lt;/div&gt;
+  &lt;div class="w3-display-middle w3-large w3-text-red"&gt;Middle&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying Badges</h2>
+<p>Updates <span class="w3-badge">9</span></p>
+
+<p>News <span class="w3-badge w3-green">6</span></p>
+
+<p>Comments <span class="w3-badge w3-red">8</span></p> 
+
+<pre><code>&lt;p&gt;Updates &lt;span class="w3-badge"&gt;9&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;News &lt;span class="w3-badge w3-green"&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Comments &lt;span class="w3-badge w3-red"&gt;8&lt;/span&gt;&lt;/p&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying Tags</h2>
+<p>Comments <span class="w3-tag">Done</span></p>
+
+<p>Example <span class="w3-tag w3-blue">New!</span></p>
+
+<p>Comments <span class="w3-tag w3-teal">More Later!</span></p>
+
+<pre><code>&lt;p&gt;Comments &lt;span class="w3-tag"&gt;Done&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Example &lt;span class="w3-tag w3-blue"&gt;New!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Comments &lt;span class="w3-tag w3-teal"&gt;More Later!&lt;/span&gt;&lt;/p&gt;
+</code></pre>
+
+
+<hr />
+<h2>Modal As a Card</h2>
+<p><button onclick="document.getElementById('id02').style.display='block'" class="w3-btn">Open Modal</button></p>
+
+<div id="id02" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;button onclick="document.getElementById('id02').style.display='block'" class="w3-btn"&gt;Open Modal&lt;/button&gt;
+
+&lt;div id="id02" class="w3-modal"&gt;
+  &lt;div class="w3-modal-content"&gt;
+    &lt;div class="w3-container"&gt;
+      &lt;span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn"&gt;&amp;times;&lt;/span&gt;
+      &lt;p&gt;Some text. Some text. Some text.&lt;/p&gt;
+      &lt;p&gt;Some text. Some text. Some text.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Modal Image</h2>
+<p>Click on the image to display it in full size:</p>
+
+<p><img src="img_fjords.jpg" style="width:30%;cursor:zoom-in"
+onclick="document.getElementById('modal01').style.display='block'"></p>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img src="img_fjords.jpg" style="width:100%">
+  </div>
+</div>
+
+<pre><code>&lt;p&gt;Click on the image to display it in full size:&lt;/p&gt;
+
+&lt;img src="img_fjords.jpg" style="width:30%;cursor:zoom-in"
+onclick="document.getElementById('modal01').style.display='block'"&gt;
+
+&lt;div id="modal01" class="w3-modal" onclick="this.style.display='none'"&gt;
+  &lt;span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright"&gt;&amp;times;&lt;/span&gt;
+  &lt;div class="w3-modal-content w3-animate-zoom"&gt;
+    &lt;img src="img_fjords.jpg" style="width:100%"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+<h2>Inline Tooltip Text</h2>
+<p class="w3-tooltip">London
+<span class="w3-text">9 million</span>
+is the capital city of England</p>
+
+<pre><code>&lt;p class="w3-tooltip"&gt;London
+&lt;span class="w3-text"&gt;9 million&lt;/span&gt;
+is the capital city of England&lt;/p&gt;
+</code></pre>
+
+<hr />
+<h2>Displaying Code</h2>
+<div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-code notranslate">
+  fruits[0] = "Banana";<br>
+  fruits[1] = "Apple";<br>
+  fruits[2] = "Mango";<br>
+  fruits[3] = "Plum";<br>
+  </div>
+</div>
+
+<pre><code>&lt;div class="w3-example"&gt;
+  &lt;h3&gt;Example&lt;/h3&gt;
+  &lt;div class="w3-code notranslate"&gt;
+  fruits[0] = "Banana";&lt;br&gt;
+  fruits[1] = "Apple";&lt;br&gt;
+  fruits[2] = "Mango";&lt;br&gt;
+  fruits[3] = "Plum";&lt;br&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+
+		<h1>The Container Classes</h1>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-container</td>
+		  <td>Container for HTML content (adds 16px padding left and right)</td>
+		  <td>
+		  <a class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_container" target="_blank">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Used with color classes</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_panel">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Used as header</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_header">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Used as footer</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_footer">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Used with w3-leftbar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_leftbar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Used with w3-bottombar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_bottombar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-section</td>
+		  <td>Container for HTML content (adds 16px margin top and bottom)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_section">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-badge</td>
+		  <td>Circular badge  <span class="w3-badge w3-red">8</span></td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_badges">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-tag</td>
+		  <td>Rectangular tag   <span class="w3-tag w3-green">More Later !</span></td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tags">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-ul</td>
+		  <td>Unordered list</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_ul">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-container</td>
+		  <td>Container for w3-display-<em>classes</em> (position an element in the top left, top right, bottom left or the bottom right corner, or in the middle of the container)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-blockquote</td>
+		  <td>Removed in 2.0 (use w3-leftbar instead)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_blockquote">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-example</td>
+		  <td>Example container</td>
+		  <td>
+		  <a class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_example_container" target="_blank">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-code</td>
+		  <td>Code container</td>
+		  <td>
+		  <a class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_code_container" target="_blank">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-progress-container</td>
+		  <td>Progress bar container</td>
+		  <td>
+		  <a class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_progressbar" target="_blank">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Table Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-table</td>
+		  <td>Container for an HTML table</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-striped</td>
+		  <td>Striped table</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_striped">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border</td>
+		  <td>Bordered table</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_border">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-bordered</td>
+		  <td>Bordered lines</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_bordered">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-centered</td>
+		  <td>Centered table</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_centered">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hoverable</td>
+		  <td>Hoverable table</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_hoverable">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-table-all</td>
+		  <td>All properties set</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_all">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-striped, w3-border, and w3-bordered</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_all">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With colored head</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_colored_head">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-responsible</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_responsive">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-tiny</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_tiny">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-small</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_small">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-large</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_large">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-xlarge</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_xlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-xxlarge</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_xxlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-xxxlarge</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_xxxlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With color</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_color">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>With w3-jumbo</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tables_jumbo">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Card Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-card</td>
+		  <td>Container for any HTML content (With border)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_cards">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-2</td>
+		  <td>Container for any HTML content (2px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-2">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-4</td>
+		  <td>Container for any HTML content (4px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-4">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-8</td>
+		  <td>Container for any HTML content (8px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-8">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-12</td>
+		  <td>Container for any HTML content (12px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-12">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-16</td>
+		  <td>Container for any HTML content (16px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-16">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-card-24</td>
+		  <td>Container for any HTML content (24px bordered shadow)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_card-24">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Responsive Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-row</td>
+		  <td>Container for one row of fluid responsive content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_row">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-row-padding</td>
+		  <td>Row where all columns have a default padding</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_row-padding">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-content</td>
+		  <td>Container for fixed size centered content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_content">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td></td>
+		 </tr><tr>
+		 </tr><tr>
+		  <td>w3-half</td>
+		  <td>Half (1/2) screen column container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_half">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-third</td>
+		  <td>Third (1/3) screen column container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_third">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-twothird</td>
+		  <td>Two third (2/3) screen column container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_twothird">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-quarter</td>
+		  <td>Quarter (1/4) screen column container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_quarter">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-threequarter</td>
+		  <td>Three quarters (3/4) screen column container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_threequarter">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-col</td>
+		  <td>Column container for any HTML content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_grid">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td> </td>
+		 </tr><tr>
+		  <td>l1 - l12</td>
+		  <td>Responsive sizes for large screens</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_grid">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>m1 - m12</td>
+		  <td>Responsive sizes for medium screens</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_grid">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>s1 - s12</td>
+		  <td>Responsive sizes for small screens</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_responsive_grid">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td></td>
+		 </tr><tr>
+		 </tr><tr>
+		  <td>w3-hide-small</td>
+		  <td>Hide content on small screens (less than 601px)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr><tr>
+		  <td>w3-hide-medium</td>
+		  <td>Hide content on medium screens</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr><tr>
+		  <td>w3-hide-large</td>
+		  <td>Hide content on large screens (larger than 992px)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Navigation Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-navbar</td>
+		  <td>Navigation bar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_navbar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Collapsible navigation bar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_navbar_hide">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-topnav</td>
+		  <td>Top navigation bar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_topnav">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-sidenav</td>
+		  <td>Side navigation bar</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Side navigation bar overlaying main content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav_overlay">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Side navigation bar overlaying all main content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav_overall">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Side navigation bar shifting main content to the right</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav_shift">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Side navigation bar with an overlay background</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav_overlay_class">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-collapse</td>
+		  <td>Fully automatic responsive side navigation</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_sidenav_collapse&stacked=h">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-dropnav</td>
+		  <td>Dropdown navigation</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropnav">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-dropdown-click</td>
+		  <td>Clickable dropdown element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropdown_click">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-dropdown-hover</td>
+		  <td>Hoverable dropdown element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropdown_hover">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Hoverable dropdown element (used in w3-navbar)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropdown_menu2">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Hoverable dropdown element (used in w3-sidenav)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropdown_menu3">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Hoverable dropdown element (used in w3-topnav)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_dropdown_menu">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-accordion</td>
+		  <td>Hide and show collapsible content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_accordion">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Clickable accordion and dropdown used in w3-sidenav</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_accordion_sidenav">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-pagination</td>
+		  <td>Pagination links</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_pagination">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+
+		<h2>Button Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-btn</td>
+		  <td>Rectangular HTML button</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Rectangular HTML button with ripple effect</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn_ripple">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-btn-floating</td>
+		  <td>Circular floating button</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn-floating">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Circular floating button with ripple effect</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn-floating_ripple">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-btn-group</td>
+		  <td>Grouped buttons</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn-group">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-btn-bar</td>
+		  <td>Button bars (similar to grouped buttons, except for different background-color and hover effects)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn-bar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-btn-block</td>
+		  <td>Full-width buttons (100%)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_btn-block">Try it</a></td>
+		 </tr>
+		</tbody></table>
+		<hr>
+
+		<h2>Input Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-form</td>
+		  <td>Same as w3-padding</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_form">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Input form as a card</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_card">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-input</td>
+		  <td>Input elements</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Input elements (top labels)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_top">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Input elements (bottom labels)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_bottom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-group</td>
+		  <td>Group of HTML elements</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_group">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-label</td>
+		  <td>Input label</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_labels">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-validate</td>
+		  <td>Validates input (Changes color when invalid input)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_validate">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-check</td>
+		  <td>Checkbox input type</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_check">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-radio</td>
+		  <td>Radio input type</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_radio">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-select</td>
+		  <td>Input select element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_select">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-input</td>
+		  <td>Animates the width of an input to 100%</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_animate">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Modal Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-modal</td>
+		  <td>Modal container</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_modal">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-modal-content</td>
+		  <td>Modal pop-up element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_modal">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-tooltip</td>
+		  <td>Tooltip element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tooltip">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-text</td>
+		  <td>Tooltip text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_tooltip_text">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Animation Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-top</td>
+		  <td>Animates an element from the top -300px to 0px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-top">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-left</td>
+		  <td>Animates an element from left -300px to 0px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-left">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-bottom</td>
+		  <td>Animates an element from the bottom -300px to 0px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-bottom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-right</td>
+		  <td>Animates an element from right -300px to 0px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-right">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-opacity</td>
+		  <td>Animates an element's opacity from 0 to 1</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-opacity">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-zoom</td>
+		  <td>Animates an element from 0 to 100% in size</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-zoom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-fading</td>
+		  <td>Animates an element's opacity from 0 to 1 and 1 to 0 (fades in AND out)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_animate-fading">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-spin</td>
+		  <td>Spin an icon 360 degrees</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_spin">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Spin any element 360 degrees</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_spin_img">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-animate-input</td>
+		  <td>Animates the width of an input field to 100%</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_input_animate">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Utility Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-tiny</td>
+		  <td>Specifies a font size of 10 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_tiny">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-small</td>
+		  <td>Specifies a font size of 12 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_small">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-large</td>
+		  <td>Specifies a font size of 20 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_large">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-xlarge</td>
+		  <td>Specifies a font size of 24 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_xlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-xxlarge</td>
+		  <td>Specifies a font size of 32 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_xxlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-xxxlarge</td>
+		  <td>Specifies a font size of 48 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_xxxlarge">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-jumbo</td>
+		  <td>Specifies a font size of 64 pixels</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_jumbo">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-slim</td>
+		  <td>Specifies a slimmer text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_slim">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-wide</td>
+		  <td>Specifies a wider text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_wide">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-vertical</td>
+		  <td>Specifies vertical text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_vertical">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-top</td>
+		  <td>Fixed content on top of page</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_topnav_fixed">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-center</td>
+		  <td>Centered content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_center">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-circle</td>
+		  <td>Circled content </td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_circle">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hide</td>
+		  <td>Hidden content (display:none)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_hide">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-show</td>
+		  <td>Show content (display:block)</td>
+		  <td>
+		  <a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_show">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-show-block</td>
+		  <td>Alias of w3-show (display:block)</td>
+		  <td>
+		  <a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_show-block">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-show-inline-block</td>
+		  <td>Show content as inline-block (display:inline-block)</td>
+		  <td>
+		  <a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_show-inline-block">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hide-small</td>
+		  <td>Hide content on small screens (less than 601px)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr><tr>
+		  <td>w3-hide-medium</td>
+		  <td>Hide content on medium screens</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr><tr>
+		  <td>w3-hide-large</td>
+		  <td>Hide content on large screens (larger than 992px)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_showhide&stacked=h">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-left</td>
+		  <td>Left adjusted content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_left">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-right</td>
+		  <td>Right adjusted content</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_right">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-left-align</td>
+		  <td>Left aligned text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_left_align">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-right-align</td>
+		  <td>Right aligned text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_right_align">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-justify</td>
+		  <td>Right and left aligned text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_justify">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-container</td>
+		  <td>Container for w3-display-<em>classes</em> (position: relative)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-topleft</td>
+		  <td>Position content in the top left corner</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-topright</td>
+		  <td>Position content in the top right corner</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-bottomleft</td>
+		  <td>Position content in the bottom left corner</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-bottomright</td>
+		  <td>Position content in the bottom right corner</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-middle</td>
+		  <td>Position content in the middle (horizontally and vertically)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-topmiddle</td>
+		  <td>Position content in the middle at the top of the element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-display-bottommiddle</td>
+		  <td>Position content in the middle at the bottom of the element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_display-position">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-serif</td>
+		  <td>Changes the font to serif</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_serif">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-opacity</td>
+		  <td>Adds opacity to text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_opacity">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td>Adds opacity to any element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_opacity_element">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-overlay</td>
+		  <td>Creates an overlay effect</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_overlay">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-text-shadow</td>
+		  <td>Adds shadows to text</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_text-shadow">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Color Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td class="w3-red">w3-red</td>
+		  <td>Background color red</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_red">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pink">w3-pink</td>
+		  <td>Background color pink</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_pink">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-purple">w3-purple</td>
+		  <td>Background color purple</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_purple">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-deep-purple">w3-deep-purple</td>
+		  <td>Background color deep purple</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_deep-purple">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-indigo">w3-indigo</td>
+		  <td>Background color indigo</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_indigo">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-blue">w3-blue</td>
+		  <td>Background color blue</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_blue">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-light-blue">w3-light-blue</td>
+		  <td>Background color light blue</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_light-blue">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-cyan">w3-cyan</td>
+		  <td>Background color cyan</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_cyan">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-aqua">w3-aqua</td>
+		  <td>Background color aqua</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_aqua">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-teal">w3-teal</td>
+		  <td>Background color teal</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_teal">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-green">w3-green</td>
+		  <td>Background color green</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-light-green">w3-light-green</td>
+		  <td>Background color light green</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_light-green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-lime">w3-lime</td>
+		  <td>Background color lime</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_lime">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-sand">w3-sand</td>
+		  <td>Background color sand</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_sand">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-khaki">w3-khaki</td>
+		  <td>Background color khaki</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_khaki">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-yellow">w3-yellow</td>
+		  <td>Background color yellow</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_yellow">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-amber">w3-amber</td>
+		  <td>Background color amber</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_amber">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-orange">w3-orange</td>
+		  <td>Background color orange</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_orange">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-deep-orange">w3-deep-orange</td>
+		  <td>Background color deep orange</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_deep-orange">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-blue-grey">w3-blue-grey</td>
+		  <td>Background color blue grey</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_blue-grey">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-brown">w3-brown</td>
+		  <td>Background color brown</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_brown">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-light-grey">w3-light-grey</td>
+		  <td>Background color light grey</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_light-grey">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-grey">w3-grey</td>
+		  <td>Background color grey</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_grey">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-dark-grey">w3-dark-grey</td>
+		  <td>Background color dark grey</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_dark-grey">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-black">w3-black</td>
+		  <td>Background color black</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_black">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pale-red">w3-pale-red</td>
+		  <td>Background color pale red</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_pale-red">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pale-yellow">w3-pale-yellow</td>
+		  <td>Background color pale yellow</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_pale-yellow">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pale-green">w3-pale-green</td>
+		  <td>Background color pale green</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_pale-green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pale-blue">w3-pale-blue</td>
+		  <td>Background color pale blue</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_colors_pale-blue">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-transparent</td>
+		  <td>Transparent background-color</td>
+		  <td> </td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Hover Classes</h2>
+		<p>All the colors above can also be used as hover classes:</p>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td class="w3-white">w3-hover-white</td>
+		  <td>Hover color white</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-white" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_white">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-black">w3-hover-black</td>
+		  <td>Hover color black</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-black" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_black">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-red">w3-hover-red</td>
+		  <td>Hover color red</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-red" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_red">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-blue">w3-hover-blue</td>
+		  <td>Hover color blue</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-blue" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_blue">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-green">w3-hover-green</td>
+		  <td>Hover color green</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-green" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-aqua">w3-hover-aqua</td>
+		  <td>Hover color aqua</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-aqua" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_aqua">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-orange">w3-hover-orange</td>
+		  <td>Hover color orange</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-orange" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_orange">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-grey">w3-hover-grey</td>
+		  <td>Hover color grey</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-grey" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_grey">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-pale-green">w3-hover-pale-green</td>
+		  <td>Hover color pale green</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-pale-green" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_pale_green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td> </td>
+		 </tr>
+		 <tr>
+		  <td class="w3-text-red">w3-hover-text-red</td>
+		  <td>Hover text color red</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-text-red" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_text-red">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-text-blue">w3-hover-text-blue</td>
+		  <td>Hover text color blue</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-text-blue" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_text-blue">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-text-green">w3-hover-text-green</td>
+		  <td>Hover text color green</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-text-green" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_text-green">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td class="w3-text-purple">w3-hover-text-purple</td>
+		  <td>Hover text color purple</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-text-purple" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_text-purple">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td> </td>
+		 </tr>
+		 <tr>
+		  <td>w3-hover-border-<em>color</em></td>
+		  <td>Hover border color</td>
+		  <td><a target="_blank" class="w3-btn w3-border-0 w3-hover-border-red" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover-border">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td> </td>
+		  <td> </td>
+		  <td> </td>
+		 </tr>
+		 <tr>
+		  <td>w3-hover-opacity</td>
+		  <td>Adds transparency to an element on hover (60% opacity)</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-opacity" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_opacity">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hover-shadow</td>
+		  <td>Adds shadow to an element on hover</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-shadow" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_shadow">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hover-none</td>
+		  <td>Removes hover effects from an element</td>
+		  <td><a target="_blank" class="w3-btn w3-hover-none" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_none">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Round Classes</h2>
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-round</td>
+		  <td>Element rounded (border-radius) 4px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-small</td>
+		  <td>Element rounded (border-radius) 2px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-medium</td>
+		  <td>Element rounded (border-radius) 4px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-large</td>
+		  <td>Element rounded (border-radius) 8px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-xlarge</td>
+		  <td>Element rounded (border-radius) 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-xxlarge</td>
+		  <td>Element rounded (border-radius) 32px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-round-jumbo</td>
+		  <td>Element rounded (border-radius) 64px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_round">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Padding Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-0</td>
+		  <td>Removes all padding from an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding-0">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding</td>
+		  <td>Padding 8px top and bottom, and 16px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-tiny</td>
+		  <td>Padding 2px top and bottom, and 4px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-small</td>
+		  <td>Padding 4px top and bottom, and 8px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-medium</td>
+		  <td>Padding 8px top and bottom, and 16px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-large</td>
+		  <td>Padding 12px top and bottom, and 24px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-xlarge</td>
+		  <td>Padding 16px top and bottom, and 32px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-xxlarge</td>
+		  <td>Padding 24px top and bottom, and 48px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-jumbo</td>
+		  <td>Padding 32px top and bottom, and 64px left and right.</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_size">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-top</td>
+		  <td>Padding top 8px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding-top">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-right</td>
+		  <td>Padding right 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding-right">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-bottom</td>
+		  <td>Padding bottom 8px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding-bottom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-left</td>
+		  <td>Padding left 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding-left">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-4</td>
+		  <td>Padding 4px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-8</td>
+		  <td>Padding 8px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-12</td>
+		  <td>Padding 12px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-16</td>
+		  <td>Padding 16px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-24</td>
+		  <td>Padding 24px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-32</td>
+		  <td>Padding 32px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-48</td>
+		  <td>Padding 48px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-64</td>
+		  <td>Padding 64px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-padding-128</td>
+		  <td>Padding 128px top and bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_padding_hor">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+		<hr>
+		<h2>Margin Classes</h2>
+
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-margin-0</td>
+		  <td>Removes all margins from an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin-0">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-margin</td>
+		  <td>Margin 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-margin-top</td>
+		  <td>Margin top 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin-top">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-margin-right</td>
+		  <td>Margin right 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin-right">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-margin-bottom</td>
+		  <td>Margin bottom 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin-bottom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-margin-left</td>
+		  <td>Margin left 16px</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_margin-left">Try it</a></td>
+		 </tr>
+		</tbody></table>
+		<hr>
+
+		<h2>Border Classes</h2>
+		<table class="w3-table w3-bordered w3-striped w3-border">
+		 <tbody><tr>
+		  <th style="width:25%">Class</th>
+		  <th>Defines</th>
+		  <th style="width:12%"></th>
+		 </tr>
+		 <tr>
+		  <td>w3-border</td>
+		  <td>Borders (top, right, bottom, left) </td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-top</td>
+		  <td>Border top</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border-top">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-right</td>
+		  <td>Border right</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border-right">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-bottom</td>
+		  <td>Border bottom</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border-bottom">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-left</td>
+		  <td>Border left</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border-left">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-0</td>
+		  <td>Removes all borders</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_utilities_border-0">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-border-<em>color</em></td>
+		  <td>Displays any defined borders in a specified color (like red, etc)</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_border-color">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-bottombar</td>
+		  <td>Adds a thick bottom border (bar) to an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_bottombar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-leftbar</td>
+		  <td>Adds a thick left border (bar) to an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_leftbar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-rightbar</td>
+		  <td>Adds a thick right border (bar) to an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_rightbar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-topbar</td>
+		  <td>Adds a thick top border (bar) to an element</td>
+		  <td><a target="_blank" class="w3-btn" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_topbar">Try it</a></td>
+		 </tr>
+		 <tr>
+		  <td>w3-hover-border-<em>color</em></td>
+		  <td>Hoverable border color</td>
+		  <td><a target="_blank" class="w3-btn w3-border-green w3-hover-border-red" href="http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover-border">Try it</a></td>
+		 </tr>
+		</tbody></table>
+
+
+		</body>
+		</html> 
