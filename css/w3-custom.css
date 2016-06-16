@@ -12,13 +12,14 @@
 .w3-theme-d5 {color:#fff !important; background-color:#5d493c !important}
 
 .w3-theme-light {color:#000 !important; background-color:#faf9f8 !important}
-.w3-theme-dark {color:#fff !important; abackground-color:#5d493c !important}
+.w3-theme-dark {color:#fff !important; background-color:#5d493c !important}
 .w3-theme-action {color:#fff !important; background-color:#5d493c !important}
 
 .w3-theme {color:#fff !important; background-color:#af9483 !important}
 .w3-text-theme {color:#af9483 !important}
 .w3-theme-border {border-color:#af9483 !important}
 .w3-hover-theme:hover {color:#fff !important; background-color:#af9483 !important}
+
 
 /* Liens */
 a {  text-decoration:none; }
@@ -58,14 +59,18 @@ aside ul.tag-list {  list-style-type: none;}
 .tag-size-9   	{ font-size: 1.8em; }
 .tag-size-10  	{ font-size: 1.9em; }
 .tag-size-max 	{ font-size: 2em;   }
-/* .tag-size-1 a 	{ color: #8ea6c5; }    		/* theme-l2 */
-/* .tag-size-2 a 	{ color: #6888b1; }      	/* theme-l1 */
-/* .tag-size-3 a 	{ color: #4c6a92; }  		/* theme */
-/* .tag-size-4 a 	{ color: #456185; }  		/* theme-d1 */
-/* .tag-size-5 a 	{ color: #456185; }  		/* theme-d1 */
-/* .tag-size-6 a 	{ color: #3d5676; }  		/* theme-d2 */
-/* .tag-size-7 a 	{ color: #3d5676; }  		/* theme-d2 */
-/* .tag-size-8 a 	{ color: #354b68; }  		/* theme-d3 */
-/* .tag-size-9 a 	{ color: #354b68; }  		/* theme-d3 */
-/* .tag-size-10 a	{ color: #354b68; } 		/* theme-d4 */
-/* .tag-size-max a { color: #26364a; } 		/* theme-d5 */
+/* .tag-size-1 a 	{ color: #cfbfb4; }    		/* theme-l2 */
+/* .tag-size-2 a 	{ color: #bfa99b; }      	/* theme-l1 */
+/* .tag-size-3 a 	{ color: #af9483; }  		/* theme */
+/* .tag-size-4 a 	{ color: #a48470; }  		/* theme-d1 */
+/* .tag-size-5 a 	{ color: #a48470; }  		/* theme-d1 */
+/* .tag-size-6 a 	{ color: #95745f; }  		/* theme-d2 */
+/* .tag-size-7 a 	{ color: #95745f; }  		/* theme-d2 */
+/* .tag-size-8 a 	{ color: #836654; }  		/* theme-d3 */
+/* .tag-size-9 a 	{ color: #836654; }  		/* theme-d3 */
+/* .tag-size-10 a	{ color: #705748; } 		/* theme-d4 */
+/* .tag-size-max a { color: #5d493c; } 		/* theme-d5 */
+
+/** Titres **/
+/* .w3-text-theme-dark {color:#5d493c !important}  /* theme-d5 */
+

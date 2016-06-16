@@ -10,7 +10,7 @@
 					<article class="w3-card-4 w3-margin w3-theme-light  w3-padding" role="article" id="post-<?php echo $plxShow->artId(); ?>">
 
 						<header>
-							<h1 class="w3-margin-0">
+							<h1 class="w3-margin-0 w3-text-theme-dark">
 								<b><?php $plxShow->artTitle('link'); ?></b>  
 							</h1>
 							<p class="article-info article-info-header w3-margin-0 w3-margin-bottom">
@@ -22,7 +22,8 @@
 
 						<section>
 							<?php $plxShow->artThumbnail(); ?>
-							<?php $plxShow->artChapo("Lire la suite ...",true); ?>
+							<?php $plxShow->artChapo("",true); ?>							
+							<p ><div class="more w3-btn w3-small w3-hover-shadow w3-theme-dark w3-hover-theme "><a href="<?php $plxShow->artUrl() ?>" >Read more</a></div></p>
 						</section>
 
 						<footer>

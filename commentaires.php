@@ -5,7 +5,7 @@
 
 	<?php if($plxShow->plxMotor->plxRecord_coms): ?>
 
-		<h2 id="comments">
+		<h2 id="comments" class="w3-text-theme-dark">
 			<i class="fa fa-comments-o" aria-hidden="true"></i> <?php echo $plxShow->artNbCom(); ?>
 		</h2>
 
@@ -44,7 +44,7 @@
 	<!-- Add a comment -->
 	<?php if($plxShow->plxMotor->plxRecord_arts->f('allow_com') AND $plxShow->plxMotor->aConf['allow_com']): ?>
 
-	<h2>
+	<h2 class="w3-text-theme-dark">
 		<i class="fa fa-pencil" aria-hidden="true"></i> <?php $plxShow->lang('WRITE_A_COMMENT') ?>
 	</h2>
 
