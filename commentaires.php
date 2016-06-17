@@ -18,10 +18,11 @@
 
 				<p class="w3-margin-0">			
 					<span class="coment-author w3-left w3-margin-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
-					<span class="coment-date w3-margin-right "><i class="fa fa-calendar" aria-hidden="true" ></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time>  </span> 
-					<span class="w3-right w3-tag w3-theme comment-link-reply">
-						<span class="coment-link "><a class="nbcom" href="<?php $plxShow->ComUrl(); ?>" title=" #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?>"><i class="fa fa-link" aria-hidden="true"></i></a></span> 
-					  |	<span class="coment-reply  "><a rel="nofollow" title="<?php $plxShow->lang('REPLY'); ?>" href="<?php $plxShow->artUrl(); ?>#form" onclick="replyCom('<?php $plxShow->comIndex() ?>')"> <i class="fa fa-share" aria-hidden="true"></i><!-- <?php $plxShow->lang('REPLY'); ?> --></a></span>
+					<span class="coment-date w3-margin-right w3-tooltip "><i class="fa fa-calendar" aria-hidden="true" ></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time> 
+					<span class="w3-text w3-padding-left"><a class="nbcom" href="<?php $plxShow->ComUrl(); ?>" title="commentaire #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?>"><i class="fa fa-link" aria-hidden="true"> commentaire  #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?></i></a></span>
+					</span> 					
+					<span class="w3-right w3-tag w3-theme comment-reply">
+					  	<span class="coment-reply  "><a rel="nofollow" title="<?php $plxShow->lang('REPLY'); ?>" href="<?php $plxShow->artUrl(); ?>#form" onclick="replyCom('<?php $plxShow->comIndex() ?>')"> <i class="fa fa-share" aria-hidden="true"></i><!-- <?php $plxShow->lang('REPLY'); ?> --></a></span>
 					</span>
 				</p>
 				<blockquote class="w3-margin w3-padding-bottom ">
@@ -92,7 +93,7 @@
 	function replyCom(idCom) {
 		document.getElementById('id_answer').innerHTML='<p><b><?php $plxShow->lang('REPLY_TO'); ?> :</b></p>';
 		document.getElementById('id_answer').innerHTML+=document.getElementById('com-'+idCom).innerHTML;
-		document.getElementById('id_answer').innerHTML+='<a rel="nofollow" href="<?php $plxShow->artUrl(); ?>#form" onclick="cancelCom()" class="w3-tag w3-theme" href="http://www.w3schools.com"><?php $plxShow->lang('CANCEL'); ?></a>';
+		document.getElementById('id_answer').innerHTML+='<a rel="nofollow" href="<?php $plxShow->artUrl(); ?>#form" onclick="cancelCom()" class="w3-btn w3-small w3-theme" href="http://www.w3schools.com"><?php $plxShow->lang('CANCEL'); ?></a>';
 		document.getElementById('id_answer').style.display='inline-block';
 		document.getElementById('id_parent').value=idCom;
 		document.getElementById('id01').focus();
