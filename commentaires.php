@@ -78,7 +78,7 @@
 				<?php if($plxShow->plxMotor->aConf['capcha']): ?>
 					<p>
 						<input class="w3-input w3-theme-l5   w3-theme-border"  type="text" id="id_rep" name="rep" maxlength="1" style="width:4em " value="<?php $plxShow->comGet('site',''); ?>"  required >
-						<label class="w3-label w3-validate w3-tooltip" for="id_rep"><?php $plxShow->capchaQ(); ?>  <span class="w3-margin-left w3-text w3-theme-light"> <i class="fa fa-info-circle" aria-hidden="true"></i> <?php echo $plxShow->lang('ANTISPAM_WARNING') ?></span> </label>
+						<label class="w3-label w3-validate w3-tooltip" for="id_rep"><?php $plxShow->capchaQ(); ?>  <span class="w3-margin-left w3-text w3-theme-l4"> <i class="fa fa-info-circle" aria-hidden="true"></i> <?php echo $plxShow->lang('ANTISPAM_WARNING') ?></span> </label>
 					</p>
 				<?php endif; ?>
 
