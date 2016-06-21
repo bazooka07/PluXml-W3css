@@ -22,9 +22,7 @@
 					</h1>
 					<p class="article-info-header w3-margin-0 w3-margin-bottom">
 						<span class="article-author w3-margin-right"><i class="fa fa-user" aria-hidden="true" ></i> <?php $plxShow->artAuthor() ?> </span> 
-						<span class="article-date w3-margin-right w3-tooltip"><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></time>
-							<?php if($plxMotor->plxRecord_arts->f('date_update')!=$plxMotor->plxRecord_arts->f('date_creation')) {	echo '<span class="w3-text">| mis &agrave; jour le ';	$plxShow->artUpdateDate('#num_day #month #num_year(4)') ; echo'</span>';	}	?>
-						</span> 
+						<span class="article-date w3-margin-right"><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></time></span> 
 						<span class="article-comments"><i class="fa fa-comment" aria-hidden="true"></i> <?php $plxShow->artNbCom(); ?></span>
 					</p>
 				</header>
