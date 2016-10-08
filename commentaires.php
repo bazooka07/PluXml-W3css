@@ -17,7 +17,7 @@
 			<div id="com-<?php $plxShow->comIndex(); ?>">
 
 				<p class="w3-margin-0">			
-					<span class="coment-author w3-left w3-margin-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <?php $plxShow->comAuthor('link'); ?> </span>  
+					<span class="coment-author w3-left w3-margin-left w3-margin-right"><i class="fa fa-user" aria-hidden="true"></i> <b><?php $plxShow->comAuthor('link'); ?></b> </span>  
 					<span class="coment-date w3-margin-right "><i class="fa fa-calendar" aria-hidden="true" ></i><time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate(' #num_day #month #num_year(4) <i class="fa fa-clock-o w3-margin-left" aria-hidden="true"></i> #hour:#minute'); ?></time>  </span> 
 					<span class="w3-right w3-tag w3-theme comment-link-reply">
 						<span class="coment-link "><a class="nbcom" href="<?php $plxShow->ComUrl(); ?>" title="<?php $plxShow->lang('COMMENT_LINK'); ?> #<?php echo $plxShow->plxMotor->plxRecord_coms->i+1 ?>"><i class="fa fa-link" aria-hidden="true"></i></a></span> 
