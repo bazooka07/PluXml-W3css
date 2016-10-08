@@ -51,6 +51,7 @@ $LANG = array(
 'REPLY_TO'				=> 'Répondre à',
 'CANCEL'				=> 'Annuler',
 
+'COMMENT_LINK'			=> 'Lien vers le commentaire'
 );
 
 ?>
