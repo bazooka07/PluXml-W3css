@@ -45,6 +45,10 @@ img {    height: auto;    max-width: 100%;}
 .menu-small ul li ul li   {	   list-style-type: none;}
 .menu-small ul li ul li a:before  {	   font-family: FontAwesome;  content:"\f0da    "}
 
+/** Icones dans le menu **/
+/* nav ul li#static-home a:before {font-family: FontAwesome; content:"\f015   ";} */
+/* nav ul li#static-1 a:before {font-family: FontAwesome; content:"\f1d6   ";} */
+
 /** Tags **/
 aside ul.tag-list li {  display: inline-block ;  margin-right:1rem;}
 aside ul.tag-list {  list-style-type: none;}
