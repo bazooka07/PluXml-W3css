@@ -34,7 +34,7 @@
 				</section>
 
 				<footer>
-							<p class="article-cat article-info-footer w3-margin-0 w3-margin-top">
+							<p class="article-cat article-info-footer w3-margin-0 w3-margin-top w3-small">
 								<span class="article-category w3-margin-right"><i class="fa fa-folder-open"></i>  <?php $plxShow->artCat() ?></span>
 								<span class="article-tag w3-margin-right"> <i class="fa fa-tags"></i>  <?php $plxShow->artTags() ?></span>
 							</p>
