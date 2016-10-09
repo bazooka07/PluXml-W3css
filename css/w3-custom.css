@@ -74,3 +74,5 @@ aside ul.tag-list {  list-style-type: none;}
 /** Titres **/
 /* .w3-text-theme-dark {color:#5d493c !important}  /* theme-d5 */
 
+/** cacher le lien "Lire la suite" **/
+/* article section p.more {display: none;} */
