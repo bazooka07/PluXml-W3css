@@ -72,8 +72,6 @@
 					<label class="w3-label w3-validate " for="id_content" ><?php $plxShow->lang('COMMENT') ?> </label>
 				</p>
 
-				<?php $plxShow->comMessage('<div class="w3-container w3-section w3-red"><span onclick="this.parentElement.style.display=\'none\'" class="w3-closebtn">&times;</span><p id="com_message" class="text-red"><strong><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> #com_message</strong></p></div>'); ?>
-
 				<?php if($plxShow->plxMotor->aConf['capcha']): ?>
 					<p>
 						<input class="w3-input w3-theme-l5   w3-theme-border"  type="text" id="id_rep" name="rep" maxlength="1" style="width:4em " value="<?php $plxShow->comGet('site',''); ?>"  required >
@@ -84,6 +82,8 @@
 				
 					<input type="hidden" id="id_parent" name="parent" value="<?php $plxShow->comGet('parent',''); ?>" />
 					<input class="w3-btn w3-theme " type="submit" value="<?php $plxShow->lang('SEND') ?>" />
+
+				<?php $plxShow->comMessage('<div class="w3-container w3-section w3-red"><span onclick="this.parentElement.style.display=\'none\'" class="w3-closebtn">&times;</span><p id="com_message" class="text-red"><strong><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> #com_message</strong></p></div>'); ?>
 				
 			</fieldset>
 	</form>
