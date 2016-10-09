@@ -24,6 +24,8 @@
 /* Liens */
 a {  text-decoration:none; }
 a:hover {  text-decoration:underline;  }
+/* article section a {color:#af9483 } */ /* w3-text-theme */
+
 
 /* Images */
 img {    height: auto;    max-width: 100%;}
