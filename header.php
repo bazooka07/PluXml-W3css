@@ -39,7 +39,7 @@
 	<!-- Navbar on small screens -->
 	<div id="navDemo" class="menu-small w3-hide w3-hide-large w3-hide-medium "  >
 		  <ul class="w3-navbar w3-left-align w3-large w3-theme-dark w3-padding-bottom ">
-			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>', '<div class="w3-padding-large ">#group_name</div>  '); ?>
+			<?php $plxShow->staticList('','<li class="#static_status " id="#static_id_alt"><a href="#static_url" title="#static_name" class="w3-padding-large w3-hover-theme">#static_name</a></li>', '<div class="w3-padding-large ">#group_name</div>  '); ?>
 		  </ul>
 	</div>
 	
