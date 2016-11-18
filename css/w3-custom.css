@@ -50,7 +50,7 @@ img {    height: auto;    max-width: 100%;}
 
 /** Icones dans le menu **/
 /* nav ul li#static-home a:before {font-family: FontAwesome; content:"\f015   ";} */
-/* nav ul li#static-1 a:before {font-family: FontAwesome; content:"\f1d6   ";} */
+/* nav ul li#static-1 a:before, nav ul li#static-1_alt a:before {font-family: FontAwesome; content:"\f1d6   ";} */
 
 /** Tags **/
 aside ul.tag-list li {  display: inline-block ;  margin-right:1rem;}
