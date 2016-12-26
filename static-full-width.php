@@ -2,7 +2,7 @@
 
 	<main class="w3-row w3-theme" role="main">
 
-		<section class="w3-col l8 s12">
+		<section class="w3-col">
 
 			<article class="article static  w3-card-4 w3-margin w3-theme-light w3-padding" role="article" id="static-page-<?php echo $plxShow->staticId(); ?>">
 
